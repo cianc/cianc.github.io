@@ -6,4 +6,4 @@ tags:
   - 
 ---
 
-This is a test of quartz
+This is a test of Quartz
