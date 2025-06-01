@@ -1,6 +1,8 @@
 ---
-title: Welcome to Quartz
+title: What
 ---
+A place for notes on lower carbon computing, green software, computational sustainability, DERs, grid optimisation, and sustainable systems in general.
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
+
+`Opinions are my own and not necessarily those of my employer`
