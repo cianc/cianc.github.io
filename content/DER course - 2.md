@@ -1,6 +1,6 @@
 
 ---
-title: "2025-05-31 Distributed Energy Resources - Lecture 2: Energy, electricity, and DERs"
+title: "Distributed Energy Resources - Lecture 2: Energy, electricity, and DERs"
 draft: false
 tags:
   - DERs
@@ -9,9 +9,7 @@ tags:
   - Electricity generation
   - Electricity markets
 ---
-Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class :
-+ [[2025-05-29 DER course - 1]]
-+ [[2025-06-01 DER course - 3]]
+Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 ## Summary
 [![[us_energy_consumption_sankey.png]]](https://flowcharts.llnl.gov/commodities/energy)
 An overview of real-world energy generation/consumption numbers and then into a little modelling and theory around transmission/distribution efficiencies and costs.

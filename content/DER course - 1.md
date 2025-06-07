@@ -1,6 +1,6 @@
 
 ---
-title: "2025-05-29 Distributed Energy Resources - Lecture 1: Intro"
+title: "Distributed Energy Resources - Lecture 1: Intro"
 draft: false
 tags:
   - DERs
@@ -19,9 +19,7 @@ Like a lot of people I've been DER-pilled by [Volts](https://www.volts.wtf/). [T
 I'd like to know more and will be working through [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class that he has very generously put online. I'll be taking notes and putting summaries up as I go.
 
 ---
-Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class :
-+ [[2025-05-31 DER course - 2]]
-+ [[2025-06-01 DER course - 3]]
+Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 ## Summary
 Just the intro so and not a lot of detail yet, but a few interesting bits on the recent increase in severe storm damage in the US and the large disparity in the drop in GHG emissions between electricity production and the rest of the economy: agriculture and buildings are flat/up, industry and transport down modestly, and electricity generation is the hero
 

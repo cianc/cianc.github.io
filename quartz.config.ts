@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Climate \\ Energy \\ Software \\ Systems",
+    pageTitle: "Engineering for Climate",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
