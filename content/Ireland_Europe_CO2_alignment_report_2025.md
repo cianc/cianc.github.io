@@ -1,8 +1,9 @@
 
 ---
-title: "How far off-track is Ireland in meeting our EU climate targets? "
+title: "Paper: Analysis of the alignment between energy transition pathways for Irish carbon budgets with EU energy and climate targets]"
 draft: false
 tags:
+  - paper review
   - climate
   - Ireland
   - EU

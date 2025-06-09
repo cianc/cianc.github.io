@@ -5,7 +5,6 @@ draft: false
 tags:
   - DERs
   - Education
-  - Maths
   - Calculus
   - Linear algebra
   - Batteries

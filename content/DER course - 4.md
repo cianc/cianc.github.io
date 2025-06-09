@@ -5,8 +5,8 @@ draft: false
 tags:
   - DERs
   - Education
-  - Maths
   - Calculus
+  - Linear algebra
   - Modelling
 ---
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
@@ -79,5 +79,4 @@ Some simple Python implementation of the above earth climate model. Non-linear a
 	+ The equivalent discrete-time LDS is:<br> $\textcolor{red}{x(k+1) = A(k)x(k)+B(k)u(k)+w(k)}$<br> where $.(k)$ denotes $.(t_k)$<br> $\textcolor{red}{A(k) = e^{(t_{k+1}-t_k)\tilde{A}(t_k)}}$<br> $B(k) = e^{t_{k+1}\tilde{A}(tk)}\int_{t_k}^{t_{k+1}}e^{-\tau\tilde{A}}d\tau\tilde{B}(t_k)$<br>  $w(k) = e^{t_{k+1}\tilde{A}(tk)}\int_{t_k}^{t_{k+1}}e^{-\tau\tilde{A}}d\tau\tilde{w}(t_k)$
 	+ if the dynamics matrix $\tilde{A}(t_k)$ is invertible<br> $\textcolor{red}{B(k) = (A(k) - I) \tilde{A}(t_k)^{-1} \tilde{B}(t_k)}$<br> $\textcolor{red}{w(k) = (A(k) - I) \tilde{A}(t_k)^{-1} \tilde{w}(t_k)}$
 		+ There is no general analytical formula for discretising<br> $\frac{dx(t)}{dt} = f (x(t), u(t),w(t))$ <br> with an arbitrary nonlinear dynamics function $f$, but numerical ODE solvers can do the trick
-+ 
  
