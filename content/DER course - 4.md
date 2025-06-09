@@ -11,6 +11,7 @@ tags:
 ---
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 ## Summary
+
 This lecture builds on the scalar and vector linear ODEs in [[DER course - 3]] to model **Linear Dynamical Systems**: "models that describe how a system changes over time, where the relationships between its variables are all linear", then finishes up with a fun little climate model as practical example.
 
 + **A continuous-time linear dynamical system (LDS)** <br> $\textcolor{red}{\frac{dx(t)}{dt} = A(t)x(t) + B(t)u(t) + w(t)}$
@@ -63,7 +64,7 @@ Some simple Python implementation of the above earth climate model. Non-linear a
 + For scalars-valued functions, we can linearise with **Taylor's theorem**: a mathematical tool that allows us to approximate a function by an infinite sum of terms, where each term is derived from the function's derivatives at a single point
 	+ The simplified version is: <br> suppose nonlinear $f: R\rightarrow R$ is differentiable at $\hat{x}\in R$ <br> if $x$ is near $\hat{x}$, then ${f(x)\approx f(\hat{x}) + f^\prime(\hat{x})(x-\hat{x})}$
 	+ The full version: $f(x)= \sum_{n=0}^{\inf}\frac{f^{(n)}(\hat{x})}{n!}(x−\hat{x})^n$
-+ Similarly, can linearise vector-valued functions of vectors with: <br> suppose nonlinear $f: R^n\rightarrow R^m$ is differentiable at $\hat{x}\in R^n$<br> if $x$ is near $\hat{x}$, then ${f(x)\approx f(\hat{x}) + D_f(\hat{x})(x-\hat{x})}$ <br> where $D_f(\hat{x}) = \begin{bmatrix}\frac{\delta f_1}{\delta x_1}|_\hat{x} &\dots &\frac{\delta f_1}{\delta x_n}|_\hat{x}\\\vdots&&\vdots\\ \frac{\delta f_m}{\delta x_1}|_\hat{x}&\dots&\frac{\delta f_m}{\delta x_n}|_\hat{x}\end{bmatrix} \in R^{(m \times n)}$<br> this is the **derivate matrix** or **Jacobian matrix** of $f$ at $\hat{x}$
++ Similarly, can linearise vector-valued functions of vectors with: <br> suppose nonlinear $f: R^n\rightarrow R^m$ is differentiable at $\hat{x}\in R^n$<br> if $x$ is near $\hat{x}$, then ${f(x)\approx f(\hat{x}) + D_f(\hat{x})(x-\hat{x})}$ <br> where $D_f(\hat{x}) = \begin{bmatrix}\frac{\delta f_1}{\delta x_1}|_{\hat{x}} &\dots &\frac{\delta f_1}{\delta x_n}|_{\hat{x}}\\\vdots&&\vdots\\ \frac{\delta f_m}{\delta x_1}|_{\hat{x}}&\dots&\frac{\delta f_m}{\delta x_n}|_{\hat{x}}\end{bmatrix} \in R^{(m \times n)}$<br> this is the **derivate matrix** or **Jacobian matrix** of $f$ at $\hat{x}$
 + **A continuous-time non-linear dynamical system (LDS)**<br> ${\frac{dx(t)}{dt} = f(x(t), u(t), w(t)}$ 
   with dynamics function ${f : R^{n_x} × R^{n_u} × R^{n_w} \Rightarrow R^{n_x}}$<br> `<skipped derivation>` 
   ${\frac{d\delta_x(t)}{dt} \approx A(t)\delta_x(t) + B(t)\delta_u(t) + G(t)\delta_w(t)}$ <br> where<br> ${δ_x (t) = x(t) − \hat{x}(t), δ_u(t) = u(t) − \hat{u}(t), δ_w (t) = w(t) − \hat{w}(t)}$ <br> and<br> ${A_{ij(t)}={\frac{\delta f_i}{\delta x_j}}|_{\hat{x}(t),\hat{u}(t),\hat{w}(t)}}$ <br> ${B_{ij(t)}={\frac{\delta f_i}{\delta u_j}}|_{\hat{x}(t),\hat{u}(t),\hat{w}(t)}}$ <br> ${G_{ij(t)}={\frac{\delta f_i}{\delta w_j}}|_{\hat{x}(t),\hat{u}(t),\hat{w}(t)}}$ 
