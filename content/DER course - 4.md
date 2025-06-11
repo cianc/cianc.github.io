@@ -4,10 +4,10 @@ title: "Distributed Energy Resources - Lecture 4: Linear Dynamical Systems"
 draft: false
 tags:
   - DERs
-  - Education
-  - Calculus
-  - Linear algebra
-  - Modelling
+  - education
+  - calculus
+  - linear algebra
+  - modelling
 ---
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 ## Summary
@@ -35,10 +35,11 @@ Then we do some neat power-balance calculations and end up with
 If we plug in historical temperature and ε values then we get reasonably close numbers! 
 See the [lecture notes](https://kevinjkircher.com/wp-content/uploads/2025/01/der-linear-dynamical-systems.pdf) for details.
 
-## Homework
+## Notes (Don't read past here unless you are bored)
+### Homework
 Some simple Python implementation of the above earth climate model. Non-linear and linearised. The hard part was figuring out what the exercise required.
 
-## Notes
+---
 + **A continuous-time linear dynamical system (LDS)** <br> $\textcolor{red}{\frac{dx(t)}{dt} = A(t)x(t) + B(t)u(t) + w(t)}$
 	+ $t \in R$ denotes time
 	+ $x(t) \in R^{n_x}$ is the **state**

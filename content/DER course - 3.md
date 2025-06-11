@@ -4,11 +4,11 @@ title: "Distributed Energy Resources - Lecture 3: Linear Ordinary Differential E
 draft: false
 tags:
   - DERs
-  - Education
-  - Calculus
-  - Linear algebra
-  - Batteries
-  - Modelling
+  - education
+  - calculus
+  - linear algebra
+  - batteries
+  - modelling
 ---
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 ## Summary
@@ -45,8 +45,10 @@ Then we derived a simple model of stored chemical energy in a battery:
 	+ $\textcolor{red}{x(t) = e^{(t-t^{init})A}x^{init} + [e^{(t-t^{init})A} - I]A^{-1}b}$
 + **If $A$ and $b$ are constant, then**
 	+ $\textcolor{red}{x(t) = e^{(t-t^{init})A}x^{init} +e^{tA}\int_{t^{init}}^t e^{-\tau A}d\tau b}$
-## Homework
-### Exercise #1
+## ## Notes (don't read past here unless you are bored)
+
+### Homework
+#### Exercise #1
 + Consider the IVP (initial value problem)
   $x(1) = 1/2, \frac{dx(t)}{dt} = -\frac{2x(t)}{t} + t - 1 + 1/t$
 + write down $a(t)$ and $b(t)$
@@ -64,7 +66,7 @@ Then we derived a simple model of stored chemical energy in a battery:
 	+ ${x(t) = \frac{1}{t^2}[{t^{init}}^2x^{init} + \frac{t^4}{4} - \frac{t^3}{3} +\frac{t^2}{2} -\frac{5}{12}]}$
 	+ $\textcolor{green}{x(t)= \frac{1}{2t^2} +\frac{t^2}{4} - \frac{t}{3} +\frac{1}{2} - \frac{5}{12t^2} = \frac{t^2}{4} - \frac{t}{3} +\frac{1}{2} + \frac{1}{12t^2}}$
 
-### Exercise #2
+#### Exercise #2
 Prove the linear vector ODE IVP solution:<br>
 $x(t^{init}) =x^{init} \in \mathbb{R}, \frac{dx(t)}{dt} = A(t)x(t) + b(t)$<br>
 $\textcolor{red}{\Rightarrow x(t) = e^{(t-t^{init})A}x^{init} + e^{tA}\int_{t^{init}}^t e^{-\tau A}b(\tau)d\tau}$
@@ -86,7 +88,8 @@ $\textcolor{red}{\Rightarrow x(t) = e^{(t-t^{init})A}x^{init} + e^{tA}\int_{t^{i
 	+ $\Rightarrow x(t) = \frac{1}{G(t)}[G(t^{init})x(t^{init}) + \int_{t^{init}}^t G(\tau)b(\tau)d\tau]$
 	+ $\Rightarrow x(t) = e^{tA}[e^{-t^{init}A}x(t^{init}) + \int_{t^{init}}^t e^{-\tau A}b(\tau)d\tau]$
 	+ $\textcolor{green}{\Rightarrow x(t) = e^{(t-t^{init})A}x^{init} + e^{tA}\int_{t^{init}}^t e^{-\tau A}b(\tau)d\tau}$
-## Notes
+
+---
 + [A quick refresh on vectors and matrices.](https://kevinjkircher.com/wp-content/uploads/2025/01/der-linear-odes.pdf) 
 + A chance to practice some $\LaTeX$.
 + An nth-order ODE is linear if it can be written as

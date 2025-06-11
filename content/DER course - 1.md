@@ -4,9 +4,10 @@ title: "Distributed Energy Resources - Lecture 1: Intro"
 draft: false
 tags:
   - DERs
-  - Education
-  - Climate disasters
+  - education
+  - climate disasters
   - GHG
+  - DERs
 ---
 <div style="float: left; width: 300px; margin-right: 10px;">
 <img src="vpp_poster_doe_lo.png" alt="DOE loan office VPP poster">

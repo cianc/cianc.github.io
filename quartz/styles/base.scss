@@ -133,7 +133,8 @@ a {
 }
 
 .desktop-only {
-  display: initial;
+    display: initial;
+    overflow: auto;
   @media all and ($mobile) {
     display: none;
   }

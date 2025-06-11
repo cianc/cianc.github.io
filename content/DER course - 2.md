@@ -4,10 +4,10 @@ title: "Distributed Energy Resources - Lecture 2: Energy, electricity, and DERs"
 draft: false
 tags:
   - DERs
-  - Education
-  - Electricity transmission
-  - Electricity generation
-  - Electricity markets
+  - education
+  - electricity transmission
+  - electricity generation
+  - electricity markets
 ---
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 ## Summary
@@ -26,7 +26,7 @@ In the US (and UK and Ireland AFAIK), the highest cost marginal electricity supp
 
 And lastly, DERs are a compromise between the the high cost of a centralised power resource (and the required transmission and distribution costs that go with it), and a fully off-grid solution that must be large enough to handle local peaks. A DER allows shaving peaks and so reduces transmission/distribution costs and allows the central resource to plan for the **peak of the sums, not the sum of the peaks**. DERs can also offer reliability benefits if they can operate during a blackout and are large enough to serve peaks for short periods.
 
-## Notes
+## Notes (do not read past here unless you are bored)
 + solar power incident on earth’s upper atmosphere: ∼170 PW
 + humanity’s time-average use of all forms of energy: ∼20 TW
 + global electricity generation capacity: ∼9 TW
