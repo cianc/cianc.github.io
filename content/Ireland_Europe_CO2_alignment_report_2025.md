@@ -8,6 +8,7 @@ tags:
   - Ireland
   - EU
   - policy
+  - GHGs
 ---
 
 **Summary:** Unless the Irish government commits to more aggressive action and higher spending on the energy transition, Ireland is almost certainly going to miss our legally binding EU commitments by a wide margin and end up with a bill of many billions (maybe tens of billions) of euros. Conversely, committing to these investments would save the country money (even ignoring fines) as well as creating the societal benefits of a low-carbon economy.

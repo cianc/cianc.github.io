@@ -45,7 +45,7 @@ Then we derived a simple model of stored chemical energy in a battery:
 	+ $\textcolor{red}{x(t) = e^{(t-t^{init})A}x^{init} + [e^{(t-t^{init})A} - I]A^{-1}b}$
 + **If $A$ and $b$ are constant, then**
 	+ $\textcolor{red}{x(t) = e^{(t-t^{init})A}x^{init} +e^{tA}\int_{t^{init}}^t e^{-\tau A}d\tau b}$
-## ## Notes (don't read past here unless you are bored)
+## Notes (don't read past here unless you are bored)
 
 ### Homework
 #### Exercise #1

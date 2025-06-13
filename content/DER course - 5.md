@@ -11,6 +11,8 @@ tags:
   - modelling
 
 ---
+Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
+## Summary
 Lecture 5 covers modelling of batteries and EVs which are just a type of battery that come with some extra constraints.
 
 This was  a fun one; some simple models with real world applications and use of bits of theory from lectures 3&4.
