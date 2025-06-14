@@ -13,7 +13,7 @@ tags:
 https://media.rff.org/documents/Prest_Fell_Gordon_Conway_2024_Updated_-_Combined.pdf under 
 https://creativecommons.org/licenses/by-nc-nd/4.0/
 
-I came across this paper in a [bluesky post](https://bsky.app/profile/kevinjkircher.com/post/3lrddfphkhs2l) where @kevinkircher was pointing to potential GHG reductions that could flow from the US reducing oil and gas exports (although it turns out the paper author's explicitly say it's more complicate for gas). I am very much not an economist so don't know how valid this approach is (the model seemed kind of simplified) but enjoyed reading about their approach and learning a few things about supply/demand elasticity and market leakage (I had naively assumed it was ~100% most of the time).
+I came across this paper in a [bluesky post](https://bsky.app/profile/kevinjkircher.com/post/3lrddfphkhs2l) where [@kevinkircher](https://bsky.app/profile/kevinjkircher.com) was pointing to potential GHG reductions that could flow from the US reducing oil and gas exports (although it turns out the paper authors explicitly say it's more complicated for gas). I am very much not an economist so don't know how valid this approach is (the model seemed kind of simplified) but enjoyed reading about their approach and learning a few things about supply/demand elasticity and market leakage (I had naively assumed it was ~100% most of the time).
 
 "In this paper, we estimate the effects of \[...\] supply-side interventions on global emissions,
 accounting for both market leakage as well as the relative emissions intensity of different sources of
