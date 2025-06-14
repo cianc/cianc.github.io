@@ -13,6 +13,8 @@ tags:
 https://media.rff.org/documents/Prest_Fell_Gordon_Conway_2024_Updated_-_Combined.pdf under 
 https://creativecommons.org/licenses/by-nc-nd/4.0/
 
+I came across this paper in a [bluesky post](https://bsky.app/profile/kevinjkircher.com/post/3lrddfphkhs2l) where @kevinkircher was pointing to potential GHG reductions that could flow from the US reducing oil and gas exports (although it turns out the paper author's explicitly say it's more complicate for gas). I am very much not an economist so don't know how valid this approach is (the model seemed kind of simplified) but enjoyed reading about their approach and learning a few things about supply/demand elasticity and market leakage (I had naively assumed it was ~100% most of the time).
+
 "In this paper, we estimate the effects of \[...\] supply-side interventions on global emissions,
 accounting for both market leakage as well as the relative emissions intensity of different sources of
 supply \[...\] We find that the emissions reductions from supply-side interventions are on the order of 40–50 percent of the gross emissions of each barrel curtailed, depending on the relative emissions intensity of the curtailed and substitute sources of supply \[...\] Further, targeting supply-side interventions at highly emissions-intensive heavy oils is likely to have greater impact on emissions."
@@ -49,6 +51,10 @@ where
 + $e_s$ is the emission intensity of substituted fuel sources
 
 The authors don't model this scenario, but note that "on one hand, reduce leakage by introducing another channel by which demand can respond (larger emissions reductions due to less leakage in equation, but, on the other hand, introduce emissions from substituted fuel (smaller emissions reductions)".
+
+The authors also point to “carbon retirement portfolios (Handler and Bazilian 2021) \[that\] would purchase emissions-intensive assets like oil and gas wells or coal-fired power plants simply to retire them. The resulting reductions in GHG emissions could then be monetised, for example by generating and selling carbon credits, or receiving direct payments from governments per
+ton of emissions reduced" - the methods in this paper seem like a reasonable approach to estimating the credits.
+
 ## Notes (don't read past here unless you are bored)
 + Market leakage: reduced supply from one source is partially offset by increased production from other sources.
 	+ cf elasticity: measures the responsiveness of one variable to a change in another. A high elasticity means a large change in demand for a small change in price, while a low elasticity means a small change in demand for a large change in price.
