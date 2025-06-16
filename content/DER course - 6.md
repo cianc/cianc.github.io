@@ -11,3 +11,49 @@ Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [
 ## Summary
 
 ## Notes (don't read past here unless you are bored)
++ buildings = commercial + residential ~ 2/3 of electricity usage in the US
++ peaks are typically driven by building aircon on hot days
+	+ seems like a good argument for distributed generation
++ ![[image-31.png]]
+	+ y-axis is % of energy used in residential/commercial buildings
+	+ blue includes electricity
++ Simple building energy model ![[image-32.png]]
++ Thermal circuits are analogous to electrical circuits
+	+ temperature ↔ voltage - temperature differences drive heat flows
+	+ heat ↔ charge
+	+ thermal resistance ↔ electrical resistance
+	+ thermal capacitance ↔ electrical capacitance
++ 1R1C circuit: ![[image-33.png]]
+	+ $T(t)$ is  indoor temp
+	+ $\theta (t)$ is boundary (often outdoor) temp
+	+ $R ( ^{\circ}C/kW)$ is thermal resistance between $T$ and $\theta$
+	+ $C (kWh/^\circ{C}$ ) is indoor thermal capacitance
+	+ $q_c(t) (kW)$ is thermal power from controlled equipment
+	+ $q_e(t) (kW)$ is thermal power from exogenous sources
++ So then we can have analogous equation's to ohm's law etc
+	+ Ohm's law: current through $R$ = $(T(t) - \theta(t))/R$
+	+ Rate of charge accumulation on $C$ = $CdT(t)/dt$
+	+ Kirchoff's current law (KCL) at node $T(t)$:
+		+ current inflow = current outflow
+		+ $q_c(t) + q_e(t) = \frac{T(t)- \theta(t)}{R} + \frac{CdT(t)}{dt}$
+		+ $\Rightarrow \frac{dT(t)}{dt} = \frac{1}{RC}[R(q_c(t) + q_e(t)) - T(t)+ \theta(t)]$ - First order differential equation, similar to battery formula
+		+ with a uniform step time $\Delta t$ and piecewise constant  $\theta, q_c, q_e$
+		+ $\textcolor{red}{T(k+1) = aT(k) + (1-a)R(q_c(k) + w(k))}$
+			+ $\textcolor{red}{a=e^{-\Delta t/RC}}$
+			+ $\textcolor{red}{w(k)=q_e(k)+\theta(k)/R}$
++ 2R1C ![[image-34.png]]
+	+ $T_m(t)$ is average temperature of thermal mass temperature (walls, etc)
+	+ $\textcolor{red}{C\frac{dT(t)}{dt} = \frac{T_m(t) - T(t)}{R_m} + \frac{T_{out} - T(t)}{R_{out}} + q_c(t) +q_e(t)}$
++ nr1C ![[image-35.png]]
+	+ physically, parallel resistances represent adjoining rooms (including above and below), and serial resistances the different materials in a barrier between rooms.
+	+ KCL $\Rightarrow \textcolor{red}{C\frac{dT(t)}{dT} = \sum_{i=1}^{n}\frac{T_i(t) - T(t)}{R_i} +q_c(t) +q_e(t)}$
+	+ Parameters
+		+ **Thermal capacitance (C)** values for a room it is typically not enough to just look at the air. Other things in the room (furniture, wall decorations, flooring etc) usually have significantly higher thermal capacity than air. Typically multiply the naive, air-only thermal capacitance by 10-15x.
+		+ **Thermal resistance**
+			+ Step 1: get typical heating temperature setpoint $\hat{T}$ (eg: thermostat setting)
+			+ Step 2: estimate indoor-outdoor temp diff $\delta$ where $q_c$ is zero (typically $6-10^\circ$, seems like we could just measure this though)
+			+ Step 3: define heating balance outdoor temp $\theta_h=\hat{T} -\delta$
+			+ Step 4: get historical $HDD(\theta_h)$ (heating degree day, $^\circ C\times$day) over a heating period
+			+ Step 6: estimate heater efficiency $\eta$
+			+ Step 7: set $R \approx (\frac{24h}{1 day})\frac{HDD(\theta_h)}{\eta E}$
+			+ 
