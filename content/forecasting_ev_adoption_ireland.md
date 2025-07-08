@@ -2,6 +2,7 @@
 ---
 title: "Paper: Hybrid SARIMA+BO-LSTM Framework for Forecasting EV Adoption: A Road to Net-Zero in Ireland"
 draft: false
+created: 2025-06-17
 tags:
   - paper review
   - EVs

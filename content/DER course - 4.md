@@ -2,6 +2,7 @@
 ---
 title: "Distributed Energy Resources - Lecture 4: Linear Dynamical Systems"
 draft: false
+created: 2025-06-13
 tags:
   - DERs
   - education

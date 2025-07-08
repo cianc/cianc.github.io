@@ -2,6 +2,7 @@
 ---
 title: "Distributed Energy Resources - Lecture 3: Linear Ordinary Differential Equations"
 draft: false
+created: 2025-06-12
 tags:
   - DERs
   - education

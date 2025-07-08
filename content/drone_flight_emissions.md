@@ -2,6 +2,7 @@
 ---
 title: "Paper: Drone flight data reveal energy and greenhouse gas emissions savings for very small package delivery"
 draft: false
+created: 2025-06-09
 tags:
   - paper review
   - drones

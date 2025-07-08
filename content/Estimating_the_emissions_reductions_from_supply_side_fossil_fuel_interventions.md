@@ -2,6 +2,7 @@
 ---
 title: "Paper: Estimating the Emissions Reductions from Supply-side Fossil Fuel Interventions"
 draft: false
+created: 2025-06-14
 tags:
   - paper review
   - economics

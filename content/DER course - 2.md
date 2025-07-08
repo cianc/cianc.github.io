@@ -2,6 +2,7 @@
 ---
 title: "Distributed Energy Resources - Lecture 2: Energy, electricity, and DERs"
 draft: false
+created: 2025-06-10
 tags:
   - DERs
   - education

@@ -2,6 +2,7 @@
 ---
 title: "Distributed Energy Resources - Lecture 5: Batteries and Electric Vehicles"
 draft: false
+created: 2025-06-14
 tags:
   - ders
   - batteries

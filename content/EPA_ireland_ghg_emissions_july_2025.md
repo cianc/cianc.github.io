@@ -2,6 +2,7 @@
 ---
 title: "Paper: Ireland's Provisional Greenhouse Gas Emissions 1990-2024"
 draft: false
+created: 2025-07-07
 tags:
   - paper review
   - EPA
