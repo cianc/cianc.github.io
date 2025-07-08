@@ -10,6 +10,8 @@ tags:
 
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11031436 under https://creativecommons.org/licenses/by/4.0/
 
+![[image-37.png]]
+
 Not  the paper I was hoping for, but that's on me for not paying attention before diving in. It is mostly concerned with building a statistical model for predicting future EV sales based on past sales. I don't even think there's anything specific to EVs in the model (though I'll admit to skipping most of methodology section, it was over my head).
 
 One thing that caught my attention is that while the author's combined stats+ML model performed best, a pure stats model came second and pure ML last.

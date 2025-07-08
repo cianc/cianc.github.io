@@ -9,6 +9,9 @@ tags:
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 
 ## Summary
+It turns out that you can reason about building heating/cooling with something called "thermal circuits" that are analogous to electrical circuits. This allows us to reuse things like Ohm's law and Kirchoff's laws to reason about heat flow, thermal capacity and insulation (or thermal resistance) in single and connected rooms.
+
+
 
 ## Notes (don't read past here unless you are bored)
 + buildings = commercial + residential ~ 2/3 of electricity usage in the US
@@ -55,5 +58,24 @@ Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [
 			+ Step 3: define heating balance outdoor temp $\theta_h=\hat{T} -\delta$
 			+ Step 4: get historical $HDD(\theta_h)$ (heating degree day, $^\circ C\times$day) over a heating period
 			+ Step 6: estimate heater efficiency $\eta$
-			+ Step 7: set $R \approx (\frac{24h}{1 day})\frac{HDD(\theta_h)}{\eta E}$
-			+ 
+			+ Step 7: set $\textcolor{red}{R \approx (\frac{24h}{1 day})\frac{HDD(\theta_h)}{\eta E}}$
+		+ **Thermal resistance from first principles**
+			+ ![[image-40.png]]
+			+ $R=1/(U_rA_r + U_wA_w\dot{m}c_p)$
+				+ $U$ is thermal transmittance
+				+ $A$ is outward-facing surface area
+				+ Subscript $r$ means roof, $w$ means wall/window assemblies
+				+ $\dot{m}$ is the mass flow rate of outdoor air infiltration
+				+ $c_p$ is the specific heat of air at pressure $p$ 
+			+ For a wall assembly
+				+ $U_w=\lambda U_{window} + (1-\lambda)U_{wall}$ where $\lambda$ is the fraction of the assembly area that is window.
+			+ Wall area (for shoebox building), $A_w \approx 4h\sqrt{NA_f}$, where $h$ is the floor thickness, N is the number of floors and $A_f$ is floor area.
+			+ $\dot{m}$ can be estimated based on room volume and desired rate at which air volume is replaced (typically 0.3-0.9 per hour)
+			  $\textcolor{red}{1/R \approx (2-5\times 10^{-4} kW/[^{\circ} C m^2])A_f/N +}$<br> $\textcolor{red}{(2.8-5.2 \times 10^{-3}kW/[^\circ C m ^2]h\sqrt{NA_f} +}$<br> $\textcolor{red}{(1.5-2.9 + \times 10^{-4}kW/[^\circ C m^3])A_fh}$
+		+ Thermal power from sunlight through windows
+			+ $q_{sun}(t) \approx (1.5-1.7 \sqrt{kW}/m)c\lambda h \sqrt{NA_fS_{tot}^-}$
+				+ $S_{tot}^- (kW/m^2)$ is the total solar irradiance on a horizontal surface
+				+ $c \in [0,1]$ (typically 0.25-0.8) is the **solar heat gain coefficient**, the fraction of incident solar irradiance that a window transmits
+				+ 
+	
+		

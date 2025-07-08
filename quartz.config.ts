@@ -19,7 +19,8 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "cianc.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    /* Changed from "modified" so that "Recent Notes" is ordered by creation time and not when last edited. */
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
