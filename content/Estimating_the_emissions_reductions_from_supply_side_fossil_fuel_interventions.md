@@ -56,38 +56,40 @@ The authors don't model this scenario, but note that "on one hand, reduce leakag
 The authors also point to “carbon retirement portfolios (Handler and Bazilian 2021) \[that\] would purchase emissions-intensive assets like oil and gas wells or coal-fired power plants simply to retire them. The resulting reductions in GHG emissions could then be monetised, for example by generating and selling carbon credits, or receiving direct payments from governments per
 ton of emissions reduced" - the methods in this paper seem like a reasonable approach to estimating the credits.
 
-## Notes (don't read past here unless you are bored)
-+ Market leakage: reduced supply from one source is partially offset by increased production from other sources.
-	+ cf elasticity: measures the responsiveness of one variable to a change in another. A high elasticity means a large change in demand for a small change in price, while a low elasticity means a small change in demand for a large change in price.
-+ The idea: reducing supply reduces GHG emissions through two mechanisms:
-	+ reduces demand by some fraction of the supply reduction due to price sensitivity.
-	+ if we pick the most emitting supply sources (eg: Canadian tar sands), then the fraction of replaced supply will likely be less emitting.
-+ Paper presents a supply/demand calculus model with the following assumptions:
-	+ supply = demand (no stockpiles)
-	+ not perfect or zero elasticity, but a range (good)
-+ These models seems awfully simple (in their model of the real world) in the way people often make fun of economics.
-+ $\textcolor{red}{\frac{dE}{d\tilde{q}}= -e_{\tilde q} + \bar{e}L}$, where
-	+ $\frac{dE}{d\tilde{q}}$ is the emissions reductions achieved per barrel of oil curtailed.
-	+ $e_{\tilde q}$ is the emissions intensity of the curtailed oil supply
-	+ $\bar{e}$ is the weighted average emissions intensity of marginal oil supply
-	+ $L$ is the market leakage rate of oil
-	+ All three inputs are uncertain, hence Monte Carlo
-+ How much of demand reduction is demand destruction vs substitutions? Eg: less driving vs use of EVs. This gives us an adjusted formula<br> $\textcolor{red}{\frac{dE}{d\tilde{q}}= -e_{\tilde q} + \bar{e}L + (1-L)(1-s)e_s}$, where
-	+ $s$ is the share of the demand reduction that is demand destruction
-	+ $e_s$ is the emission intensity of substituted fuel sources
-+ Substitutes typically have much lower emissions, eg: heat pumps, EVs
-+ This paper is too long for the points it is making (too many words in particular)
-+ Nifty, mapping oil and gas field emissions: https://ociplus.rmi.org/map
-+ Have to very roughly estimate field size since only size buckets are provided by this data set
-+ ![[image-26.png]]
-  vs
-  ![[image-27.png]]
-  More variation in the 20-year GWP since that's more sensitive to methane leak
-+ Monte Carlo
-	+ Inputs: distributions of supply and demand elasticities sampled to create leakage distribution.
-	+ Randomly pick curtailed source and substitute source fields weighted by by production size.
-	+ Then randomly pick from the leakage distribution
-	+ Also pick run simulations for 9 distinct categories of curtailed supply and 17 of substitute to reflect things like different emission levels, regionality, elasticity and oil type.
-+ "OPEC is about twice as price-responsive than average. Similarly, onshore North American
-supply is estimated to be more price-responsive than the global average" 
-+ Results: ![[image-28.png]] ![[image-29.png]]
+
+> [!NOTE]- Notes
+>
+> + Market leakage: reduced supply from one source is partially offset by increased production from other sources.
+> 	+ cf elasticity: measures the responsiveness of one variable to a change in another. A high elasticity means a large change in demand for a small change in price, while a low elasticity means a small change in demand for a large change in price.
+> + The idea: reducing supply reduces GHG emissions through two mechanisms:
+> 	+ reduces demand by some fraction of the supply reduction due to price sensitivity.
+> 	+ if we pick the most emitting supply sources (eg: Canadian tar sands), then the fraction of replaced supply will likely be less emitting.
+> + Paper presents a supply/demand calculus model with the following assumptions:
+> 	+ supply = demand (no stockpiles)
+> 	+ not perfect or zero elasticity, but a range (good)
+> + These models seems awfully simple (in their model of the real world) in the way people often make fun of economics.
+> + $\textcolor{red}{\frac{dE}{d\tilde{q}}= -e_{\tilde q} + \bar{e}L}$, where
+> 	+ $\frac{dE}{d\tilde{q}}$ is the emissions reductions achieved per barrel of oil curtailed.
+> 	+ $e_{\tilde q}$ is the emissions intensity of the curtailed oil supply
+> 	+ $\bar{e}$ is the weighted average emissions intensity of marginal oil supply
+> 	+ $L$ is the market leakage rate of oil
+> 	+ All three inputs are uncertain, hence Monte Carlo
+> + How much of demand reduction is demand destruction vs substitutions? Eg: less driving vs use of EVs. This gives us an adjusted formula<br> $\textcolor{red}{\frac{dE}{d\tilde{q}}= -e_{\tilde q} + \bar{e}L + (1-L)(1-s)e_s}$, where
+> 	+ $s$ is the share of the demand reduction that is demand destruction
+> 	+ $e_s$ is the emission intensity of substituted fuel sources
+> + Substitutes typically have much lower emissions, eg: heat pumps, EVs
+> + This paper is too long for the points it is making (too many words in particular)
+> + Nifty, mapping oil and gas field emissions: https://ociplus.rmi.org/map
+> + Have to very roughly estimate field size since only size buckets are provided by this data set
+> + ![[image-26.png]]
+>   vs
+>   ![[image-27.png]]
+>   More variation in the 20-year GWP since that's more sensitive to methane leak
+> + Monte Carlo
+> 	+ Inputs: distributions of supply and demand elasticities sampled to create leakage distribution.
+> 	+ Randomly pick curtailed source and substitute source fields weighted by by production size.
+> 	+ Then randomly pick from the leakage distribution
+> 	+ Also pick run simulations for 9 distinct categories of curtailed supply and 17 of substitute to reflect things like different emission levels, regionality, elasticity and oil type.
+> + "OPEC is about twice as price-responsive than average. Similarly, onshore North American
+> supply is estimated to be more price-responsive than the global average" 
+> + Results: ![[image-28.png]] ![[image-29.png]]
