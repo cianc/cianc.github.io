@@ -18,7 +18,7 @@ This got a lot of publicity a few months ago and I can see why. With only 0.25% 
 
 The assumption is that since most new datacenter load is being added for AI, that AI training (vs inference) is likely the best target for curtailment since it's not in the serving path we should be able to time or spatially shift it.
 
-Why is this important? For the DC builders this offers a faster route to deployment as it reduces the need for new generation and transmission infrastructure. It may also save them money if the alternative is special contracts that require absorbing some of the cost of this infrastructure.
+Why is this important? For the DC construction this offers a faster route to deployment as it reduces the need for new generation and transmission infrastructure. It may also save them money if the alternative is special contracts that require absorbing some of the cost of this infrastructure.
 For consumers it can mean cheaper electricity, or at least a smaller increase in electricity costs when these giant new loads are added.
 
 ### Questions
