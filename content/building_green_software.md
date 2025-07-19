@@ -7,13 +7,15 @@ tags:
   - book review
   - software
   - climate
+  - GHGs
 ---
-## Summary
 https://www.oreilly.com/library/view/building-green-software/9781098150617/
 
 I was initially disappointed with the lack of detail in this book, but by the end had changed my mind. It's not a book about software performance tuning, but the much broader topic of how to minimise GHG emissions from real-world software systems. As such it needs to talk about business goals, economics, government policy, energy markets, operations and all the tradeoffs that span the gap between your systems's theoretical compute complexity and how much GHG emissions it's actually responsible for.
 
-The main things I took from this book are:
+As such I would call this a guide book rather than a how-to.
+
+The main things I took away were:
 - **Embodied carbon** - the emissions resulting from the creation and disposal of hardware - are a major source of GHG emissions that often get overlooked when discussing software emissions (it's 85-95% for smartphones, it's lower for servers, but still [a lot](https://sci-guide.greensoftware.foundation/M/Datasets))
 - High hardware utilisation is really really important, for two reasons:
 	- Higher utilisation from existing hardware means less new hardware needs to be manufactured which means you avoid all of that embodied carbon. Notably this applies to **all** hardware, even non-compute elements like network cabling.
@@ -31,7 +33,7 @@ The main things I took from this book are:
 	- Automatically scale their requirements based on recent history of workload size. This minimises the size of peaks (we're not relying on some static conservative guess) and reduces their width (we don't hold onto resources longer than they are needed). 
 - FinOps and GreenOps are natural allies.
 
-I was happy to see  https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/ get a shout-out as an example of carbon-aware computing (spatial and temporal workload shifting to minimise GHG emissions). I've done some work to optimise the pipelines behind this as part of $DAYJOB and it's nice to see the recognition, but i can say that the ability to do this kind of shifting goes down as fleets are run at higher utilisation and specialised ML hardware makes workloads more constrained.
+I was happy to see  https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/ get a shout-out as an example of carbon-aware computing (spatial and temporal workload shifting to minimise GHG emissions). I've done some work to optimise the pipelines behind this as part of $DAYJOB and it's nice to see the recognition, but i can say that the ability to do this kind of shifting goes down as fleets are run at higher utilisation and specialised ML hardware makes workloads more constrained.  Which reminds me, I should write up some notes on the original [carbon-aware computing paper](carbon_aware_computing_for_datacenters)
 
 Lastly, there was of course a chapter on AI and LLMs. On the one had I don't think the authors could have written a this book without addressing the elephant in the room, but on the other, the whole area is moving so quickly and seems so immune to rational economics that there's not much useful they could say. Maybe in a few years when things have settled down.
 

@@ -1,6 +1,6 @@
 
 ---
-title: "Paper: Ireland's Provisional Greenhouse Gas Emissions 1990-2024"
+title: "White Paper: Ireland's Provisional Greenhouse Gas Emissions 1990-2024"
 draft: false
 created: 2025-07-07
 tags:
@@ -14,7 +14,6 @@ tags:
 
 https://www.epa.ie/publications/monitoring--assessment/climate-change/air-emissions/EPA-Provisional-1990-2024-GHG-Report-1716.pdf
 
-## Summary
 Nothing really surprising here after reading [[Ireland_Europe_CO2_alignment_report_2025]] recently, though there are some nice graphs that highlight the successes and failures with Ireland's attempts to reduce GHG emissions.
 
 As usual, agriculture is the elephant in the room, being our largest emitting sector (38% of our GHG-equivalent emissions), with little apparent progress or a serious plan to fix things.

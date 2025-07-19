@@ -1,6 +1,6 @@
 
 ---
-title: "Paper: Analysis of the alignment between energy transition pathways for Irish carbon budgets with EU energy and climate targets]"
+title: "White Paper: Analysis of the alignment between energy transition pathways for Irish carbon budgets with EU energy and climate targets]"
 draft: false
 created: 2025-06-16
 tags:
