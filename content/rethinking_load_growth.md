@@ -15,6 +15,7 @@ https://nicholasinstitute.duke.edu/sites/default/files/publications/rethinking-l
 "We estimate the gigawatts of new load that could be added in each balancing authority (BA) before total load exceeds what system planners are prepared to serve, provided the new load can be temporarily curtailed as needed. This serves as a proxy for the system’s ability to integrate new load, which we term **curtailment-enabled headroom**."
 
 This got a lot of publicity a few months ago and I can see why. With only 0.25% load curtailment, this paper estimates that 76GW of new datacenter load could be added to the US grid with no new transmission capacity needed. What's more, the average curtailment duration in this scenario is only 1.7h and for 88% of curtailment hours > 50% of load could still be served! And if you're willing to tolerate higher curtailment rates the new load capacity goes way way up: ![[image-54.png]]
+
 The assumption is that since most new datacenter load is being added for AI, that AI training (vs inference) is likely the best target for curtailment since it's not in the serving path we should be able to time or spatially shift it.
 
 Why is this important? For the DC builders this offers a faster route to deployment as it reduces the need for new generation and transmission infrastructure. It may also save them money if the alternative is special contracts that require absorbing some of the cost of this infrastructure.
