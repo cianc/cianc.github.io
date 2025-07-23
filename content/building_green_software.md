@@ -47,6 +47,7 @@ Lastly, there was of course a chapter on AI and LLMs. On the one had I don't thi
 > 	+ There is a non-zero power draw for an idle server, ie: a constant overhead that has to be paid per server, aka "static power draw"
 > 	+ Compute/power efficiency is higher at higher utilisation (though I imagine this is better for a smaller number of workloads and worse for a larger number of workloads that may fight over resources and cause cache invalidation/context switching/interrupts etc). 
 > 	  ![[image-45.png]] from https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33387.pdf is illustrative (but actual numbers are out of date)
+> 	+ Also ![[image-62.png]] from [Power Modeling for Effective Datacenter Planning and Compute Management](https://arxiv.org/pdf/2103.13308)
 > + Cloud providers are incentivised to run at high utilisation and spend a lot of effort on multi-tenancy and efficient packing of workloads. BUT I can't find compelling numbers and the https://sustainability.aboutamazon.com/products-services/aws-cloud link in the book doesn't seem to have them either.
 > + So anything that makes bin packing easier is good for lower emissions: smaller workloads relative to machine size, delayable workloads, scalable workloads
 > ### Chapter 2 - Building Blocks
