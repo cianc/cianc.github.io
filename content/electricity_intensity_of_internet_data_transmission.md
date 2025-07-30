@@ -16,6 +16,9 @@ Anyway, the punchline is that there was likely a ~5x in **network electricity in
 
 ![[image-68.png]]
 
+### Questions
++ What are more recent numbers? I could not find newer studies.
+  
 > [!NOTE]- Notes
 > + Meta-analysis to identify the most accurate estimates of average electricity intensity for data transmitted over the Internet.
 > + **Network electricity intensity: kWh/GB**
