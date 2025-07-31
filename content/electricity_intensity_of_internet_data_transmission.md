@@ -8,6 +8,8 @@ tags:
   - Climate
   - Energy
 ---
+https://onlinelibrary.wiley.com/doi/10.1111/jiec.12630
+
 > 	Abstract: In order to understand the electricity use of Internet services, it is important to have accurate estimates for the average electricity intensity of transmitting data through the Internet (measured as kilowatt-hours per gigabyte ((kWh/GB). This study identifies representative estimates for the average electricity intensity of fixed-line Internet transmission networks over time and suggests criteria for making accurate estimates in the future. Differences in system boundary, assumptions used, and year to which the data apply significantly affect such estimates. Surprisingly, methodology used is not a major source of error, as has been suggested in the past. This article derives criteria to identify accurate estimates over time and provides a new estimate **of 0.06 kWh/GB for 2015**. By retroactively applying our criteria to existing studies, we were able to determine that the electricity intensity of data transmission (core and fixed-line access networks) has decreased by half approximately every 2 years since 2000 (for developed countries), a rate of change comparable to that found in the efficiency of computing more generally.
 
 An old paper (2017) that I came across while reading [Building Green Software](building_green_software). Even though the numbers are stale, it discusses different estimation methodologies (and their shortcomings) and provides a framework for how best to go about further estimates. I also haven't been able to find a newer paper or any other reliable looking source for newer estimates.
