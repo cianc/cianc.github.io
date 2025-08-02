@@ -4,9 +4,9 @@ title: "Paper: Electricity Intensity of Internet Data Transmission"
 draft: false
 created: 2025-07-28
 tags:
-  - Networking
-  - Climate
-  - Energy
+  - networking
+  - climate
+  - energy
 ---
 https://onlinelibrary.wiley.com/doi/10.1111/jiec.12630
 
@@ -14,12 +14,17 @@ https://onlinelibrary.wiley.com/doi/10.1111/jiec.12630
 
 An old paper (2017) that I came across while reading [Building Green Software](building_green_software). Even though the numbers are stale, it discusses different estimation methodologies (and their shortcomings) and provides a framework for how best to go about further estimates. I also haven't been able to find a newer paper or any other reliable looking source for newer estimates.
 
-Anyway, the punchline is that there was likely a ~5x in **network electricity intensity (kWh/GB)** in the 15 years between 2000 and 2015. But there is a good chance that new technologies will break this exponential decrease at some point (if it hasn't already). 
+Anyway, the punchline is that there was likely a ~5x in **network electricity intensity (kWh/GB)** in the 15 years between 2000 and 2015, with an estimate of 0.06 kWh/GB for 2015. But if this rate of decrease continues is an open quest (see [[#Questions]] below for a discussion on newer numbers)
 
 ![[image-68.png]]
 
 ### Questions
 + What are more recent numbers? I could not find newer studies.
+	+ [Stefan Aeschbacher](https://movement.greensoftware.foundation/members/34909286)kindly pointed me at https://sustainablewebdesign.org/estimating-digital-emissions/. A few notes on how it differs from this paper and what we can pull out for a comparison:
+		+ It covers much broader system boundaries, including datacenter, network an user device energy usage. It actually links to[ another article ](https://www.wholegraindigital.com/blog/website-energy-consumption/)that specifically references the paper in this note and points out that it's boundaries are quite narrow.
+		+ It includes both operational and embodied carbon emissions whereas this paper just looks at operational emissions.
+		+ So just looking at network operational emissions, we get 0.059 kWh/GB which is almost identical to the 0.06 kWh/GB value for 2015 from the original paper which is disappointing.
+		+ HOWEVER, https://sustainablewebdesign.org/estimating-digital-emissions/ is using energy values from 2022, but data transfer values from 2023 (though you'd think this would make transmission look more efficient). It's also possible that the two analyses are using different system boundaries, though on first reading it seems like they are both focusing on the dotted box in this diagram ![[image-66.png]]
   
 > [!NOTE]- Notes
 > + Meta-analysis to identify the most accurate estimates of average electricity intensity for data transmitted over the Internet.
