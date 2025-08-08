@@ -8,6 +8,7 @@ tags:
   - datacenters
   - grid
   - energy
+  - modelling
 ---
 https://www.nber.org/papers/w34065
 

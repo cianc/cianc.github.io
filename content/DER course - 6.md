@@ -1,17 +1,21 @@
 
 ---
-title: ""
-draft: true
+title: "Distributed Energy Resources - Lecture 6: Buildings, part 1"
+draft: false
 created: 2025-06-15
 tags:
   - DERs
   - education
+  - buildings
+  - calculus
+  - modelling
 ---
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 
 ## Summary
 It turns out that you can reason about building heating/cooling with something called "thermal circuits" that are analogous to electrical circuits. This allows us to reuse things like Ohm's law and Kirchoff's laws to reason about heat flow, thermal capacity and insulation (or thermal resistance) in single and connected rooms.
 
+Example:  ![[image-33.png]]
 
 
 > [!NOTE]- Notes
@@ -77,6 +81,3 @@ It turns out that you can reason about building heating/cooling with something c
 > 			+ $q_{sun}(t) \approx (1.5-1.7 \sqrt{kW}/m)c\lambda h \sqrt{NA_fS_{tot}^-}$
 > 				+ $S_{tot}^- (kW/m^2)$ is the total solar irradiance on a horizontal surface
 > 				+ $c \in [0,1]$ (typically 0.25-0.8) is the **solar heat gain coefficient**, the fraction of incident solar irradiance that a window transmits
-> 				+ 
-> 	
-> 		

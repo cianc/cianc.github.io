@@ -1,22 +1,22 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import {QuartzComponentConstructor} from "./types"
+import style from "./styles/linksHeader.scss"
 
-const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
-  return children.length > 0 ? <header>{children}</header> : null
+interface Options {
+  links: Record<string, string>
 }
 
-Header.css = `
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 2rem 0;
-  gap: 1.5rem;
-}
-
-header h1 {
-  margin: 0;
-  flex: auto;
-}
-`
-
-export default (() => Header) satisfies QuartzComponentConstructor
+export default (() => {
+  function LinksHeader() {
+    return (
+      <div id="links-header-container">
+        <div id="links-header">
+          <a class="links-header-item" href="/">About</a>
+          <a class="links-header-item" href="/images/resume.pdf">Resume</a>
+          </div>
+          <hr></hr>
+        </div>
+      )
+    }
+  LinksHeader.css = style
+  return LinksHeader
+}) satisfies QuartzComponentConstructor

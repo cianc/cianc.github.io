@@ -20,11 +20,16 @@ Anyway, the punchline is that there was likely a ~5x in **network electricity in
 
 ### Questions
 + What are more recent numbers? I could not find newer studies.
-	+ [Stefan Aeschbacher](https://movement.greensoftware.foundation/members/34909286)kindly pointed me at https://sustainablewebdesign.org/estimating-digital-emissions/. A few notes on how it differs from this paper and what we can pull out for a comparison:
+	+ Update #1: [Stefan Aeschbacher](https://movement.greensoftware.foundation/members/34909286)kindly pointed me at https://sustainablewebdesign.org/estimating-digital-emissions/. A few notes on how it differs from this paper and what we can pull out for a comparison:
 		+ It covers much broader system boundaries, including datacenter, network an user device energy usage. It actually links to[ another article ](https://www.wholegraindigital.com/blog/website-energy-consumption/)that specifically references the paper in this note and points out that it's boundaries are quite narrow.
 		+ It includes both operational and embodied carbon emissions whereas this paper just looks at operational emissions.
 		+ So just looking at network operational emissions, we get 0.059 kWh/GB which is almost identical to the 0.06 kWh/GB value for 2015 from the original paper which is disappointing.
 		+ HOWEVER, https://sustainablewebdesign.org/estimating-digital-emissions/ is using energy values from 2022, but data transfer values from 2023 (though you'd think this would make transmission look more efficient). It's also possible that the two analyses are using different system boundaries, though on first reading it seems like they are both focusing on the dotted box in this diagram ![[image-66.png]]
+	+ Update #2: http://green-coding.io just published [How to Measure and Act on Network Carbon Emissions in Green Software](https://www.green-coding.io/blog/network-carbon-emissions-in-green-software/)
+		+ It argues for a "Time-Dependent / Load-Based" model that accounts for idle power and differing values of marginal power depending on how busy a network device is.
+		+ This is essentially a power/utilisation curve as discussed for servers in [[building_green_software]]
+			+ Says that this approach "needs idle and active power data for networking hardware, which is often proprietary or unpublished". Is networking gear power consumption close enough to bi-modal to make this true, or do you really need a curve?
+		+ References https://vs.inf.ethz.ch/publ/papers/Coroama2021_InternetEnergy.pdf which has similar numbers (~0.09kWh/GB) for internet+home network power consumption, but estimates ~0.2kWh/GB for mobile networks. Though the paper is from 2021 and there should be significantly less 2G/3G vs 4G/5G usage now.
   
 > [!NOTE]- Notes
 > + Meta-analysis to identify the most accurate estimates of average electricity intensity for data transmitted over the Internet.

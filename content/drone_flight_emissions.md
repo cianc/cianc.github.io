@@ -8,6 +8,7 @@ tags:
   - drones
   - climate
   - modelling
+  - energy
 ---
 This is a fun paper on the energy requirements and GHG emissions for drones vs other modes of delivery: [https://www.cell.com/patterns/fulltext/S2666-3899(22)00180-5](https://www.cell.com/patterns/fulltext/S2666-3899(22)00180-5)
 It's a couple of years old, and only looks at drones with small payloads (< 0.5kg). I was initially surprised at how much more efficient they are than most other delivery options (spoiler: not really), including electric vans. 
