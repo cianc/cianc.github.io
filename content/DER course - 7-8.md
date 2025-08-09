@@ -1,7 +1,7 @@
 
 ---
 title: "Distributed Energy Resources - Lectures 7-8: Buildings part 2 & Heating, ventilation, and air conditioning"
-draft: true
+draft: false
 created: 2025-08-07
 tags:
   - DERs
@@ -12,7 +12,13 @@ tags:
 ---
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 
-As a result of time pressure I'm easing up on the detailed notes and bundling together several lectures.
+As a result of time pressure I'm easing up on the detail in the notes and bundling together several lectures.
+
+The first in these lectures continues the previous discussion of thermal circuits and how more complicated circuits (2R2C and then nRnC) can be modelled and how air mass and building mass can be viewed as separate thermal batteries that vary on different time scales. It also discusses different heating control mechanisms including thermostats and how to model them.
+
+The second lecture is an introduction to heat pumps (including backwards heat pumps, aka: air conditioners): both the underlying technology and how to model them for the purposes of sizing for heating/cooling of a given building.
+
+I can't believe I hadn't seen this XKCD before:
 
 ![[image-86.png]]
 
@@ -42,5 +48,20 @@ As a result of time pressure I'm easing up on the detailed notes and bundling to
 > 		+ Note that the curve is exponential, so you get increasing gains as you move to the right (smaller delta between source and destination temperature.) This is why heat pumps can struggle with extreme cold.
 > 		+ ![[image-87.png]]
 > 		+ ![[image-88.png]]
+> 	+ Airconditioning
+> 		+ A heat pump in reverse
+> 		+ Can also dehumidify
+> 	+ Sizing for heating and cooling
+> 		+ estimate overall indoor-outdoor thermal resistance $R$
+> 		+ get design outdoor temperature $\theta^{des}$ 
+> 		+ set design indoor temperature $T^{des}$ to occupant preference
+> 		+ pick plausible $q_e^{des}$ fro ~4am
+> 		+ size to steady-state heat load in design conditions: $$\bar{p}_h = \frac{r}{\eta(\theta^{des})}(\frac{T^{des}-\theta^{des}}{R} -q_e^{des})$$
+> 			+ Where $r$ is the "oversize ratio"  and is ~1.2 to 1.5, typically
+> 		+ for cooling: $$\bar{p}_c = \frac{r}{s\eta(\theta^{des})}(\frac{\theta^{des}-T^{des}}{R} -q_e^{des})$$
+> 			+ where $q^{des}_e$ should be plausible for sunny afternoon
+> 		+ Can size the resultant system to either be large enough to serve the max of heating and cooling (but may then be quite large), or undersize for heating (which is typically the largest component) and then fall back to some form of backup heating, eg: resistive, heat storage,  gas etc.
+> 		+ Example: ![[image-89.png]]
+> 		+ 
 
 
