@@ -1,6 +1,6 @@
 
 ---
-title: "Distributed Energy Resources - Lectures 7-8: Buildings part 2 & Heating, ventilation, and air conditioning"
+title: "Distributed Energy Resources - Lectures 7-8: Buildings part 2 & Heating, Ventilation, and Air Conditioning"
 draft: false
 created: 2025-08-07
 tags:
