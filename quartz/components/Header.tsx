@@ -7,15 +7,16 @@ interface Options {
 
 export default (() => {
   function LinksHeader() {
-    return (
-      <div id="links-header-container">
-        <div id="links-header">
-          <a class="links-header-item" href="/">About</a>
-          <a class="links-header-item" href="/images/resume.pdf">Resume</a>
-          </div>
-          <hr></hr>
-        </div>
-      )
+      // Since I moved linkedin/email/github links to the footer, don't need this for now.
+      //return (
+      //
+      //  <div id="links-header-container">
+      //  <div id="links-header">
+      //  <a class="links-header-item" href="/">About</a>
+      //    </div>
+      //    <hr></hr>	  
+      //  </div>
+      //)
     }
   LinksHeader.css = style
   return LinksHeader

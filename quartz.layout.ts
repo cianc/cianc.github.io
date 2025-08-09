@@ -8,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/cianc/cianc.github.io",
+      Linkedin: "https://www.linkedin.com/in/cian-cullinan/",
+      Mail: "mailto:cian.cullinan@gmail.com",
     },
   }),
 }
@@ -42,7 +43,11 @@ export const defaultContentPageLayout: PageLayout = {
     // Ideally we'd pass a sortFn that sorted by the creation date tage, but it doesn't
     // look like that's the value stored in ContentDetails.date.
     Component.Explorer({
-      title: "All Notes"
+      title: "All Notes",
+      mapFn: (node) => {
+        node.displayName = "\u2022 " + node.displayName
+        return node
+      },
     }),
     
   ],
