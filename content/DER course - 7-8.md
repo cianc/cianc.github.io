@@ -9,6 +9,8 @@ tags:
   - buildings
   - calculus
   - modelling
+  - heat pumps
+  - air conditioning
 ---
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 
@@ -62,6 +64,6 @@ I can't believe I hadn't seen this XKCD before:
 > 			+ where $q^{des}_e$ should be plausible for sunny afternoon
 > 		+ Can size the resultant system to either be large enough to serve the max of heating and cooling (but may then be quite large), or undersize for heating (which is typically the largest component) and then fall back to some form of backup heating, eg: resistive, heat storage,  gas etc.
 > 		+ Example: ![[image-89.png]]
-> 		+ 
+
 
 
