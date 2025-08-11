@@ -1,6 +1,8 @@
 ---
 title: About
 created: 2025-06-01
+draft: 
+tags:
 ---
 [![[vpp_poster_doe_lo.png|447x548]]](https://www.energy.gov/lpo/posters#vpp)
 

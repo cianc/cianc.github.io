@@ -1,11 +1,10 @@
-
 ---
-title: ""
+title: 
 draft: true
-created: {{date}}
+created: 
 tags:
-  - 
 ---
+
 
 > [!NOTE]- Notes
 
