@@ -11,7 +11,6 @@ tags:
   - modelling
 ---
 
-
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 ### Thermal Storage and Water Heaters
 An overview of three kinds of thermal storage.
