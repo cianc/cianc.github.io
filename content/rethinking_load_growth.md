@@ -4,10 +4,10 @@ title: "White Paper: Rethinking Load Growth"
 draft: false
 created: 2025-07-19
 tags:
-  - paper review
+  - paper_review
   - power
   - DCs
-  - load shifting
+  - load_shifting
 ---
 
 https://nicholasinstitute.duke.edu/sites/default/files/publications/rethinking-load-growth.pdf
