@@ -19,7 +19,7 @@ The main things I took away were:
 - **Embodied carbon** - the emissions resulting from the creation and disposal of hardware - are a major source of GHG emissions that often get overlooked when discussing software emissions (it's 85-95% for smartphones, it's lower for servers, but still [a lot](https://sci-guide.greensoftware.foundation/M/Datasets))
 - High hardware utilisation is really really important, for two reasons:
 	- Higher utilisation from existing hardware means less new hardware needs to be manufactured which means you avoid all of that embodied carbon. Notably this applies to **all** hardware, even non-compute elements like network cabling.
-	- An idle server consumes significant power, and power efficiency (compute per unit of power) is non-linear, with efficiency increasing as server utilisation goes up:
+	- An idle server consumes significant power, and power efficiency (compute per unit of power) is non-linear, with efficiency increasing as server utilisation goes up: ^7fda1e
 	   - ![[image-45.png]] (from https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33387.pdf. For illustrative purposes, actual numbers are out of date)
 
 -  The easiest and most scalable way of reducing software emissions is not tuning code efficiency, but running it more efficiently, ie: **Operational Efficiency**. Why? Optimised software comes with business costs. There is a tension between efficiency and developer productivity and software maintainability.
