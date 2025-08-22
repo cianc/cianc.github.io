@@ -1,5 +1,5 @@
 ---
-title: "Paper: An Introduction to Life-Cycle Emissions of AIHardware"
+title: "Paper: An Introduction to Life-Cycle Emissions of AI Hardware"
 draft: false
 created: 2025-08-18
 tags:

@@ -15,6 +15,7 @@ tags:
 <p><a href="https://www.energy.gov/lpo/posters">Image credit: DOE loan office</a></p>
 </div>
 
+
 Like a lot of people I've been DER-pilled by [Volts](https://www.volts.wtf/). [This episode](https://www.volts.wtf/p/managing-a-distributed-grid) in particular makes a lot of comparisons between distributed computer systems (where I work) and distributed power systems.
 
 

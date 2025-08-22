@@ -1,6 +1,6 @@
 ---
 title: "Distributed Energy Resources - Lectures 13-14: Convex Sets and Functions & Solving Convex Optimization Problems"
-draft: false
+draft: true
 created: 2025-08-12
 tags:
   - DERs
