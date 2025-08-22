@@ -34,7 +34,7 @@ As we can see from the nice diagram at the top, embodied CCI accounts for DC con
 ![[image-103.png|700x300]]
 
 
-One last thing that caught my attention was from the methodology: newer chip generations tend to see higher utilisation, and power-efficiency goes up with utilisation (see [here](building_green_software#^7fda1e)). So in order to avoid modelling artificially higher efficiency for newer generations, the authors performed *Propensity Score Weighting* (see appendix F in the [extended paper](https://arxiv.org/pdf/2502.01671)) to normalise utilisation across generations. For example, if most v4 machines run at low utilisation, then a v4 machine running at high utilisation gets a high weight applied to its utilisation value. This isolates  hardware improvements from the utilisation differences.
+One last thing that caught my attention was from the methodology: newer chip generations tend to see higher utilisation, and power-efficiency goes up with utilisation (see [here](building_green_software.md#^7fda1e)). So in order to avoid modelling artificially higher efficiency for newer generations, the authors performed *Propensity Score Weighting* (see appendix F in the [extended paper](https://arxiv.org/pdf/2502.01671)) to normalise utilisation across generations. For example, if most v4 machines run at low utilisation, then a v4 machine running at high utilisation gets a high weight applied to its utilisation value. This isolates  hardware improvements from the utilisation differences.
 
 If I have one quibble with this paper it's that it probably underestimates the embodied CCI for a combination of two reasons:
 1. Utilisation of a specific generation of hardware seems likely to go down over time as newer hardware comes along. In fact this is the stated reason for implementing propensity weighting.
@@ -43,11 +43,11 @@ If I have one quibble with this paper it's that it probably underestimates the e
 Both of these will have the effect of reducing the total FLOPs performed by a chip in its lifetime which would raise the embodied CCI. With that said, we've already noted that operational CCI is much larger than embodied CCI so maybe it's not that important.
 
 > [!NOTE]- Notes
-> + ![[image-101.png]] - very nice the way this lays out scopes vertically and lifecycle stages horizontally.
+> + ![[/image-101.png]] - very nice the way this lays out scopes vertically and lifecycle stages horizontally.
 > 	+ DC construction: DCs live much longer than hardware so one DC serves multiple generations
 > + Tensor Processing Units (TPUs) are Google’s AI-focused application-specific integrated circuits (ASICs)
 > + Does an LCA across multiple chip generations to study the trajectory of energy and carbon efficiencies.
-> + ![[image-102.png]]
+> + ![[/image-102.png]]
 > 	+ *versatile* good training and inference, *powerful* for training
 > + Methodology
 > 	+ Paper targets AI accelerators **and the attached host computer.** So one TPU tray+ one compute tray. Network and storage equipment not included. DC cooling included in operational emissions.
@@ -67,7 +67,7 @@ Both of these will have the effect of reducing the total FLOPs performed by a ch
 > 		+ Downside of using FLOPS is that we anchor to current state of algorithms, ie: algo improvements would not show up as CCI improvements.
 > 		+ measured operational CCI varies from 2 to 4 times higher than spec sheet operational CCI across the five TPUs.
 > 	+ Results
-> 		+ ![[image-103.png|700x235]]
+> 		+ ![[/image-103.png|700x235]]
 > 		+ Some speculation about a world where 90% of operational and manufacturing energy was 90% carbon free. I'm not sure I see the point of this in this paper. Feels like the author wants to write a separate paper about carbon accounting under future higher CFE conditions.
 > 		+ **Ignoring CFE procurement, embodied emissions are roughly ∼10% and operational emissions are ∼90% of an AI system’s lifetime emissions**. DC operation ~5%. So operational efficiency or more CFE for running systems is where we should be focusing for now.
 > 		+ Newer TPUs and more memory increase embodied emissions in newer generations — representing more than half of all embodied emissions with memory alone more than a third—yet CCI from manufacturing still declines each generation, suggesting performance gains via more efficient hardware design outweigh increases in manufacturing emissions.

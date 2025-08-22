@@ -20,7 +20,7 @@ The main things I took away were:
 - High hardware utilisation is really really important, for two reasons:
 	- Higher utilisation from existing hardware means less new hardware needs to be manufactured which means you avoid all of that embodied carbon. Notably this applies to **all** hardware, even non-compute elements like network cabling.
 	- An idle server consumes significant power, and power efficiency (compute per unit of power) is non-linear, with efficiency increasing as server utilisation goes up: ^7fda1e
-	   - ![[image-45.png]] (from https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33387.pdf. For illustrative purposes, actual numbers are out of date)
+	   - ![[/image-45.png]] (from https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33387.pdf. For illustrative purposes, actual numbers are out of date)
 
 -  The easiest and most scalable way of reducing software emissions is not tuning code efficiency, but running it more efficiently, ie: **Operational Efficiency**. Why? Optimised software comes with business costs. There is a tension between efficiency and developer productivity and software maintainability.
 - **Operational efficiency**: "achieving the same functional result for the same application or service, including performance and resilience, using fewer hardware resources"
@@ -33,7 +33,7 @@ The main things I took away were:
 	- Automatically scale their requirements based on recent history of workload size. This minimises the size of peaks (we're not relying on some static conservative guess) and reduces their width (we don't hold onto resources longer than they are needed). 
 - FinOps and GreenOps are natural allies.
 
-I was happy to see  https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/ get a shout-out as an example of carbon-aware computing (spatial and temporal workload shifting to minimise GHG emissions). I've done some work to optimise the pipelines behind this as part of $dayjob and it's nice to see the recognition, but i can say that the ability to do this kind of shifting goes down as fleets are run at higher utilisation and specialised ML hardware makes workloads more constrained.  Which reminds me, I should write up some notes on the original [carbon-aware computing paper](carbon_aware_computing_for_datacenters)
+I was happy to see  https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/ get a shout-out as an example of carbon-aware computing (spatial and temporal workload shifting to minimise GHG emissions). I've done some work to optimise the pipelines behind this as part of $dayjob and it's nice to see the recognition, but i can say that the ability to do this kind of shifting goes down as fleets are run at higher utilisation and specialised ML hardware makes workloads more constrained.  Which reminds me, I should write up some notes on the original [carbon-aware computing paper](carbon_aware_computing_for_datacenters.md)
 
 Lastly, there was of course a chapter on AI and LLMs. On the one had I don't think the authors could have written a this book without addressing the elephant in the room, but on the other, the whole area is moving so quickly and seems so immune to rational economics that there's not much useful they could say. Maybe in a few years when things have settled down.
 
@@ -46,8 +46,8 @@ Lastly, there was of course a chapter on AI and LLMs. On the one had I don't thi
 > + It's important to run servers at high utilisation (~80%) for maximum efficiency because
 > 	+ There is a non-zero power draw for an idle server, ie: a constant overhead that has to be paid per server, aka "static power draw"
 > 	+ Compute/power efficiency is higher at higher utilisation (though I imagine this is better for a smaller number of workloads and worse for a larger number of workloads that may fight over resources and cause cache invalidation/context switching/interrupts etc). 
-> 	  ![[image-45.png]] from https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33387.pdf is illustrative (but actual numbers are out of date)
-> 	+ Also ![[image-62.png]] from [Power Modeling for Effective Datacenter Planning and Compute Management](https://arxiv.org/pdf/2103.13308)
+> 	  ![[/image-45.png]] from https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33387.pdf is illustrative (but actual numbers are out of date)
+> 	+ Also ![[/image-62.png]] from [Power Modeling for Effective Datacenter Planning and Compute Management](https://arxiv.org/pdf/2103.13308)
 > + Cloud providers are incentivised to run at high utilisation and spend a lot of effort on multi-tenancy and efficient packing of workloads. BUT I can't find compelling numbers and the https://sustainability.aboutamazon.com/products-services/aws-cloud link in the book doesn't seem to have them either.
 > + So anything that makes bin packing easier is good for lower emissions: smaller workloads relative to machine size, delayable workloads, scalable workloads
 > ### Chapter 2 - Building Blocks

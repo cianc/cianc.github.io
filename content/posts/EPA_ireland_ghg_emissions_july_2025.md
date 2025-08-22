@@ -27,8 +27,8 @@ GHG emissions excluding LULUCF (Land Use, Land-Use Change, and Forestry - always
 	+ We need to drop total emissions by 10.4% in 2025 to stay within our 2021-2025 budget. LOL.
 	+ Sectoral emissions ceilings: we need reductions of 15%, 34%, 34%, and 16% in 2025 for the Electricity, Industry, Transport and Buildings sectors keep within Sectoral Emissions Ceilings (SEC). Agricultural and ‘Other’ sectors can probably meet their SEC.
 
-![[image-41.png]]
-![[image-42.png]]
+![[/image-41.png]]
+![[/image-42.png]]
 
 
 
@@ -48,7 +48,7 @@ GHG emissions excluding LULUCF (Land Use, Land-Use Change, and Forestry - always
 > + GHG emissions decreased by 8.9% in 2024 vs 2023.
 > + Supply from renewables grew by 1.3% in 2024 vs 2023 but due to increased demand, the share in renewable energy generation decreased from 40.7% in 2023 to 39.6%.
 > + Imported electricity was 14.0% of electricity supply in 2024 vs 9.5% in 2023.
-> + Emissions intensity decreased to 226 g CO2/kWh vs 254 g CO2/kWh in 2023. It's actually one of the more striking success stories of Ireland's emission reduction efforts ![[image-44.png]]
+> + Emissions intensity decreased to 226 g CO2/kWh vs 254 g CO2/kWh in 2023. It's actually one of the more striking success stories of Ireland's emission reduction efforts ![[/image-44.png]]
 > + Since 1990, electricity consumption has gone up 175%, but generation emissions have gone dwon 37.5!!! This is due to increased gas plant efficiency (presumably combined cycle), increased renewables and interconnections. Conversely, in the same period, agriculture emissions have only dropped 0.8%.
 > + Imports accounted fro 14% of 2024 supply! I expect this will be higher for 2025 since the Ireland-Wales new interconnector [went live](https://www.thejournal.ie/greenlink-interconnector-launches-today-connecting-electricity-between-ireland-and-wales-6679784-Apr2025/) in April.
 > 
@@ -56,7 +56,7 @@ GHG emissions excluding LULUCF (Land Use, Land-Use Change, and Forestry - always
 > + GHG emissions decreased by 1.7% for 2024 vs 2023.
 > + Most due to a 2.9% reduction in the cattle herd. Sheep herd also down by 7.9% (maybe good news for biodiversity?)
 > + 10.6% increase in fertiliser nitrogen use partially offset reduced cattle numbers on emissions.
-> + Our agriculture emissions are basically down to cows (CH4)+fertiliser(N20) ![[image-43.png]]  
+> + Our agriculture emissions are basically down to cows (CH4)+fertiliser(N20) ![[/image-43.png]]  
 > #### Transport
 > + GHG amissions decreased 1.2% in 2024 vs 2023. This is  5.4% below 2019
 > + 16% increase in use of biofuels contributed to the majority of this emission reduction. **ie: not EVs**, though EV increases helped offset emissions growth from 4.1% increase in the national vehicle fleet.

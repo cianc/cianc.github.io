@@ -39,17 +39,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.RecentNotes({ showTags: false, limit: 5  }),
-    // Ideally we'd pass a sortFn that sorted by the creation date tage, but it doesn't
-    // look like that's the value stored in ContentDetails.date.
-    Component.Explorer({
-      title: "All Notes",
-      mapFn: (node) => {
-        node.displayName = "\u2022 " + node.displayName
-        return node
-      },
-    }),
-    
+    Component.RecentNotes({
+	showTags: false,
+	limit: 4,
+	linkToMore: "posts/" as SimpleSlug,
+    }),    
   ],
   right: [
     //Component.Graph(),

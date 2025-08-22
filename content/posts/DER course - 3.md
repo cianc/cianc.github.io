@@ -14,7 +14,7 @@ tags:
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 ## Summary
 
-  [![[battery_energy_evolution_with_constant_p-chem.png]]](https://kevinjkircher.com/wp-content/uploads/2025/01/der-linear-odes.pdf)
+  [![[/battery_energy_evolution_with_constant_p-chem.png]]](https://kevinjkircher.com/wp-content/uploads/2025/01/der-linear-odes.pdf)
 
 A **lot** of derivations for one lecture. Especially given how comparatively light on content the first two lectures were. 
 
@@ -159,7 +159,7 @@ Then we derived a simple model of stored chemical energy in a battery:
 >   $y(t) = \frac{x^{fin} - x(t)}{x^{fin} - x^{init}}$
 >   apparently this simplifies to $y(t) = e^{-(t-t^{init})/\tau}$
 >   so after $n$ time constants ($\tau$), $100 \times e^{-n} =$ % remaining
->   [![[battery_energy_evolution_with_constant_p-chem.png]]](https://kevinjkircher.com/wp-content/uploads/2025/01/der-linear-odes.pdf)
+>   [![[/battery_energy_evolution_with_constant_p-chem.png]]](https://kevinjkircher.com/wp-content/uploads/2025/01/der-linear-odes.pdf)
 > + Linear vector ODEs
 > 	+ A first-order linear **vector** ODE has the form
 > 	  $\textcolor{red}{\frac{dx(t)}{dt} = A(t)x(t) + b(t)}$

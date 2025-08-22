@@ -20,7 +20,7 @@ An overview of three kinds of thermal storage.
 
 Here is a nice picture of heat-pump/resistance hybrid water heater: 
 
-![[image-92.png|331x291]]
+![[/image-92.png|331x291]]
 
 ### Solar Energy
 A little spherical geometry gives us a model to estimate solar irradiance at different locations at different times of year with different solar panel orientation. 
@@ -29,17 +29,17 @@ This gets a little more interesting when you have time-varying electricity costs
 
 Here is a nice picture of a solar photovoltaic cell: 
 
-![[image-93.png|491x358]]
+![[/image-93.png|491x358]]
 > [!NOTE]- Notes
 > + Thermal Storage and Water Heaters
 > 	+ Three types of thermal storage
 > 		+ Lumped sensible thermal storage
 > 			+ Lumped means all one temp through the entire tank
 > 			+ Sensible refers to temp change vs phase change (which is called "latent")
-> 			+ ![[image-90.png]]
+> 			+ ![[/image-90.png]]
 > 		+ Stratified sensible thermal storage
 > 			+ Two zones with different temperatures rather than the same temp through the tank.
-> 			+ ![[image-91.png]]
+> 			+ ![[/image-91.png]]
 > 		+ Latent thermal storage
 > 			+ freeze/melt a material instead of heating/cooling it
 > 	+ Typical domestic hot water cylinder holds up to ~9-13kWh
