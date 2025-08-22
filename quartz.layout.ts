@@ -39,7 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.DesktopOnly(Component.RecentNotes({ showTags: false, limit: 5  })),
+    Component.RecentNotes({ showTags: false, limit: 5  }),
     // Ideally we'd pass a sortFn that sorted by the creation date tage, but it doesn't
     // look like that's the value stored in ContentDetails.date.
     Component.Explorer({
