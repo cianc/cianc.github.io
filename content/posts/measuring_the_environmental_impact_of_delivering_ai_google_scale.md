@@ -71,7 +71,7 @@ In another very [recent paper](An_Introduction_to_Life-Cycle_Emissions).  Google
 As Hannah Ritchie puts it
 > The fact that AI chatbots are a small part of most individual footprints does not mean I don’t think AI and data centres as a whole are not a problem for energy use and carbon emissions. I think that, particularly at a local level, managing load growth will be a challenge.
 
-And [Kentan](https://ketanjoshi.co/2025/08/23/big-techs-selective-disclosure-masks-ais-real-climate-impact/#:~:text=The%20generative%20industry%20is%20environmentally%20harmful) has more words than I can quote but here's a sample
+And [Ketan](https://ketanjoshi.co/2025/08/23/big-techs-selective-disclosure-masks-ais-real-climate-impact/#:~:text=The%20generative%20industry%20is%20environmentally%20harmful) has more words than I can quote but here's a sample
 > A single person querying a chatbot isn’t as energy intensive as heating food, or moving in a car. But the broader implementation of generative systems (text-spam ‘reasoning’, images, videos, enforced demand through design tricks etc) **is energy hungry in aggregate**, and it’s getting worse every day.
 
 My first reaction was that this is a bit unfair and is conflating larger problems with AI with a paper that's only trying to calculate per-prompt emissions and resource consumption. But to some it's invited by the title of the paper, sentences like "0.24 Wh represents less energy than watching TV for 9 seconds. The water use of 0.26 mL equals five drops of water", and the dodgy methodological choices already mentioned. 
