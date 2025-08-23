@@ -7,6 +7,7 @@ tags:
   - AI
   - hardware
   - life_cycle_review
+  - Google
 ---
 https://www.computer.org/csdl/magazine/mi/5555/01/11097303/28IR6YdAq9W (with a somewhat extended version [here](https://arxiv.org/pdf/2502.01671) that goes deeper into the methodology)
 
