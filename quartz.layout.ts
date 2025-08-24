@@ -39,11 +39,12 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.RecentNotes({
-	showTags: false,
-	limit: 4,
-	linkToMore: "posts/" as SimpleSlug,
-    }),    
+    Component.DesktopOnly(
+	Component.RecentNotes({
+		showTags: false,
+		limit: 4,
+		linkToMore: "posts/" as SimpleSlug,
+    		})),    
   ],
   right: [
     //Component.Graph(),
