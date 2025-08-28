@@ -44,11 +44,11 @@ If I have one quibble with this paper it's that it probably underestimates the e
 Both of these will have the effect of reducing the total FLOPs performed by a chip in its lifetime which would raise the embodied CCI. With that said, we've already noted that operational CCI is much larger than embodied CCI so maybe it's not that important.
 
 > [!NOTE]- Notes
-> + ![[/image-101.png]] - very nice the way this lays out scopes vertically and lifecycle stages horizontally.
+> + ![[image-101.png]] - very nice the way this lays out scopes vertically and lifecycle stages horizontally.
 > 	+ DC construction: DCs live much longer than hardware so one DC serves multiple generations
 > + Tensor Processing Units (TPUs) are Google’s AI-focused application-specific integrated circuits (ASICs)
 > + Does an LCA across multiple chip generations to study the trajectory of energy and carbon efficiencies.
-> + ![[/image-102.png]]
+> + ![[image-102.png]]
 > 	+ *versatile* good training and inference, *powerful* for training
 > + Methodology
 > 	+ Paper targets AI accelerators **and the attached host computer.** So one TPU tray+ one compute tray. Network and storage equipment not included. DC cooling included in operational emissions.

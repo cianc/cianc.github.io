@@ -12,7 +12,7 @@ tags:
 ---
 Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
 ## Summary
-[![[/us_energy_consumption_sankey.png]]](https://flowcharts.llnl.gov/commodities/energy)
+[![[us_energy_consumption_sankey.png]]](https://flowcharts.llnl.gov/commodities/energy)
 An overview of real-world energy generation/consumption numbers and then into a little modelling and theory around transmission/distribution efficiencies and costs.
 
 Always good to be reminded about the primary fuel fallacy: fossil fuel consumption typically loses 2/3 of output energy - "rejected energy" . Electrification doesn't need to replace the primary fuel usage, just the (lower equivalent) for an electrified sysstem.

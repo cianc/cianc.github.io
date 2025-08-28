@@ -9,12 +9,13 @@ tags:
   - grid
   - energy
   - modelling
+  - flexible_dcs
 ---
 https://www.nber.org/papers/w34065
 
 > Abstract: Data centers are among the fastest-growing electricity consumers, raising concerns about their impact on grid operations and decarbonization goals. Their temporal flexibility—the ability to shift workloads over time—offers a source of demand-side flexibility. We model power systems in three U.S. regions: Mid-Atlantic, Texas, and WECC, under varying flexibility levels. We evaluate flexibility's effects on grid operations, investment, system costs, and emissions. **Across all scenarios, flexible data centers reduce costs by shifting load from peak to off-peak hours**, flattening net demand, and supporting renewable and baseload resources. **This load shifting facilitates renewable integration while improving the utilization of existing baseload capacity. As a result, the emissions impact depends on which effect dominates.** Higher renewable penetration increases the emissions-reduction potential of data center flexibility, while lower shares favor baseload generation and may raise emissions. Our findings highlight the importance of aligning data center flexibility with renewable deployment and regional conditions.
 
-This figure is a bit busy, but sums it up nicely:  ![[/image-76.png]]
+This figure is a bit busy, but sums it up nicely:  ![[image-76.png]]
 When optimising for cost, DC flexibility always results in lower system costs (through a mixture of investment, fuel, and O&M savings), but only results in emissions reductions if there are sufficient renewables to flex into, otherwise base load generation (often including coal) is run at higher levels and emissions actually go up.
 
 Obviously we could optimise for emission reductions instead of cost, but that's a policy discussion.

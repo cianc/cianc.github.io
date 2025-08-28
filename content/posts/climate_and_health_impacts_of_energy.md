@@ -25,7 +25,7 @@ I am skeptical that you can assign a single monetary value to these things and d
 	c) Greater benefits can be had deploying renewables in eastern Europe than western Europe.
 	
 
-![[/image-70.png]]
+![[image-70.png]]
 
 ### Questions
 + Climate impact is calculated based on the [social cost of carbon](https://19january2017snapshot.epa.gov/climatechange/social-cost-carbon_.html) (SC-CO2)and health impact based on deaths attributable to pollution, but SC-CO2 includes changes to human health, so is there overlap or double counting?
@@ -41,17 +41,17 @@ I am skeptical that you can assign a single monetary value to these things and d
 > + **Social cost of carbon (SCC)** to estimate the potential monetary impacts of climate change attributed to GHG emissions from energy consumption: https://19january2017snapshot.epa.gov/climatechange/social-cost-carbon_.html
 > + The SC-CO2 is a measure, in dollars, of the long-term damage done by a ton of carbon dioxide (CO2) emissions in a given year.  This dollar figure also represents the value of damages avoided for a small emission reduction (i.e., the benefit of a CO2 reduction).
 > + Results
-> 	+ ![[/image-69.png]]
+> 	+ ![[image-69.png]]
 > 	+ Climate benefits are modelled globally (since GHGs travel globally), but health benefits on a country level (since they tend to travel less far)
 > 	+ Biomass/fuels are relatively low climate impact but high health impact. They are a large energy source in Estonia and Hungary
 > 	+ Highest  climate and health impacts where for countries with dirtier mixes of energy sources
 > 	+ Health impacts can be considerably higher than climate impacts where coal or oil dominate energy generation. This is because CO2 equivalent varies much less between fuel types than pollution does, eg: coal is ~2x CO2 of methane, but  ~100x for SO2. Age of coal plants also plays a large role in how efficient and polluting they are.
-> 	+ ![[/image-70.png]]
+> 	+ ![[image-70.png]]
 > 	+ Show's that greater benefits can be had deploying renewables in eastern Europe than western Europe.
 > 	+ Also that it may be more effective to highlight health benefits than climate benefits in some locations.
-> 	+ ![[/image-71.png]]
+> 	+ ![[image-71.png]]
 > 	+ Total health impact looks way higher than total climate impact in many countries.
-> 	+ ![[/image-72.png]]
+> 	+ ![[image-72.png]]
 > + Study shortcomings
 > 	+ Ozone-related health outcomes and other air pollutant emissions, such as volatile organic compounds, NH3, and CO, were not included due to lack of related data, which may lead to underestimation of the health impacts
 > 	+ Didn't account for international electricity flows

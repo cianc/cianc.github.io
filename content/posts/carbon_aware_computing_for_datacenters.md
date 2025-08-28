@@ -20,7 +20,7 @@ CICM takes advantage of the fact that while the type or size of individual workl
 
 The mechanism to spread out the inflexible workloads is a "virtual capacity curve", a per-hour artificially lowered compute limit the cluster scheduler must honour while giving precedence to inflexible workloads.
 
-![[/image-57.png]]
+![[image-57.png]]
 
 Apart from the predicted flexible and inflexible compute load and carbon intensity forecasts, VCCs are also a function of output of trained models that map compute load to power load, prediction uncertainties, and scheduler SLOs.
 
@@ -32,7 +32,7 @@ I will note that spatial shifting appears to have much more potential according 
 
 > Spatiotemporal workload shifting can reduce workloads’ carbon emissions, the practical upper bounds of these carbon reductions are currently limited and far from ideal." - crucially, temporal carbon intensity varies at most 2x, but spatial up to 43x and spatial is much harder to do.
 
-![[/image-63.png]]
+![[image-63.png]]
 This paper also points out that
 > simple scheduling policies often yield most of these reductions, with more sophisticated techniques yielding little additional benefit. 
 
@@ -61,7 +61,7 @@ and
 > 	+ infrastructure and workload performance expectations (CPU requirements and kW/CPU ?)
 > 	+ per-dc power limits provided by utilities
 > + VCCs calculated a day ahead and pushed to target clusters so they can be used to limit resources per-hour for flexible workloads by delaying scheduling.
-> + ![[/image-57.png]]
+> + ![[image-57.png]]
 > + "when delaying the execution of the flexible jobs, their users should be impacted in an unbiased way."
 > + VCC computation
 > 	1.  Predict next days load
@@ -84,6 +84,6 @@ and
 > 	+ **Carbon intensity forecasting pipeline**: using electricity maps
 > + Sum under the VCC curve must be at least 97% of the sum of the flexible and inflexible capacity reservations (not usage) of the day.
 > + Impact
-> 	+ Prediction errors relatively low , except for flexible usage since that is often more volatile, especially in smaller clusters: ![[/image-58.png]]
-> 	+ Example - note that the VCC could have shifted more load to later in the day when emissions were lower, but the forecast uncertainty limits how tightly we can run things: ![[/image-59.png]]
-> 	+ Normalized power curves, averaged across all datacenter clusters in a campus, on randomly treated (optimized) and non-treated (not optimized) days for two months beginning February 12th 2021: ![[/image-60.png]]
+> 	+ Prediction errors relatively low , except for flexible usage since that is often more volatile, especially in smaller clusters: ![[image-58.png]]
+> 	+ Example - note that the VCC could have shifted more load to later in the day when emissions were lower, but the forecast uncertainty limits how tightly we can run things: ![[image-59.png]]
+> 	+ Normalized power curves, averaged across all datacenter clusters in a campus, on randomly treated (optimized) and non-treated (not optimized) days for two months beginning February 12th 2021: ![[image-60.png]]

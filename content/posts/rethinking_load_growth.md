@@ -8,6 +8,7 @@ tags:
   - power
   - DCs
   - load_shifting
+  - flexible_dcs
 ---
 
 https://nicholasinstitute.duke.edu/sites/default/files/publications/rethinking-load-growth.pdf
