@@ -18,7 +18,7 @@ Lecture 5 covers modelling of batteries and EVs which are just a type of battery
 
 This was  a fun one; some simple models with real world applications and use of bits of theory from lectures 3&4.
 
-![[/image-25.png]]
+![[image-25.png]]
 
 > [!NOTE]- Notes
 > ### Homework
@@ -81,7 +81,7 @@ This was  a fun one; some simple models with real world applications and use of 
 > 	+ $x(t) \in R (kWh)$ is the stored chemical potential energy
 > 	+ $\tau > 0 (h)$ is the self-dissipation time constant. This $\infty$ for an ideal battery
 > 	+ $p^{chem}(t) \in R (kW)$ is the chemical charging power, or discharging if $p^{chem}(t) < 0$ - ie: electrical power input/output.
-> 	  ![[/image-20.png]]
+> 	  ![[image-20.png]]
 > + Electrical charging/discharging power is<br> $\textcolor{red}{max\{p^{chem}(t)/\eta_c,\eta_dp^{chem}(t)\}}$ 
 > 	+ $\eta_c, \eta_d \in (0,1]$ are the charging and discharging efficiencies.
 > + Discrete-time battery model<br> $\textcolor{red}{x(k+1) = ax(k) + a(1-a)\tau p^{chem}(k)}$ 
@@ -100,7 +100,7 @@ This was  a fun one; some simple models with real world applications and use of 
 > + Just a battery with wheels (and thus special charging/discharging conditions)
 > + $\textcolor{red}{p^{chem}(k) = -\frac{\alpha(k)d(k)}{\Delta t}}$
 > 	+ $\alpha(k) (kWh/km)$ is energy intensity of driving (like MPG for ICE cars). Typically 0.15 - 0.4 kWh/km. Ebikes ~0.005kWh/km
-> + Temperate profile ![[/image-25.png]]
+> + Temperate profile ![[image-25.png]]
 > + plugged in indicator $z(k) = \begin{cases} 1\text{  if the EV is plugged in over time step K}\\0 \text{   otherwise}\end{cases}$
 > 
 > + $\textcolor{red}{\begin{cases}-\bar{p}_d \leq p(k) \leq \bar{p}_c & \text{ if } z(k)=1\\ p(k) \leq 0 & \text{ if }z(k) = 0 \end{cases}}$<br> with $\bar{p}_d = 0$ for EVs without bidirectional charging

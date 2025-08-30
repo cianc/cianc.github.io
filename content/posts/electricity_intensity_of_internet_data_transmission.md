@@ -16,7 +16,7 @@ An old paper (2017) that I came across while reading [Building Green Software](b
 
 Anyway, the punchline is that there was likely a ~5x in **network electricity intensity (kWh/GB)** in the 15 years between 2000 and 2015, with an estimate of 0.06 kWh/GB for 2015. But if this rate of decrease continues is an open quest (see [[#Questions]] below for a discussion on newer numbers)
 
-![[/image-68.png]]
+![[image-68.png]]
 
 ### Questions
 + What are more recent numbers? I could not find newer studies.
@@ -24,7 +24,7 @@ Anyway, the punchline is that there was likely a ~5x in **network electricity in
 		+ It covers much broader system boundaries, including datacenter, network an user device energy usage. It actually links to[ another article ](https://www.wholegraindigital.com/blog/website-energy-consumption/)that specifically references the paper in this note and points out that it's boundaries are quite narrow.
 		+ It includes both operational and embodied carbon emissions whereas this paper just looks at operational emissions.
 		+ So just looking at network operational emissions, we get 0.059 kWh/GB which is almost identical to the 0.06 kWh/GB value for 2015 from the original paper which is disappointing.
-		+ HOWEVER, https://sustainablewebdesign.org/estimating-digital-emissions/ is using energy values from 2022, but data transfer values from 2023 (though you'd think this would make transmission look more efficient). It's also possible that the two analyses are using different system boundaries, though on first reading it seems like they are both focusing on the dotted box in this diagram ![[/image-66.png]]
+		+ HOWEVER, https://sustainablewebdesign.org/estimating-digital-emissions/ is using energy values from 2022, but data transfer values from 2023 (though you'd think this would make transmission look more efficient). It's also possible that the two analyses are using different system boundaries, though on first reading it seems like they are both focusing on the dotted box in this diagram ![[image-66.png]]
 	+ Update #2: http://green-coding.io just published [How to Measure and Act on Network Carbon Emissions in Green Software](https://www.green-coding.io/blog/network-carbon-emissions-in-green-software/)
 		+ It argues for a "Time-Dependent / Load-Based" model that accounts for idle power and differing values of marginal power depending on how busy a network device is.
 		+ This is essentially a power/utilisation curve as discussed for servers in [[building_green_software]]
@@ -36,7 +36,7 @@ Anyway, the punchline is that there was likely a ~5x in **network electricity in
 > + **Network electricity intensity: kWh/GB**
 > + Argument that electricity use of access networks and home/on-site networking equipment should be allocated by the time used and not data, as the electricity use does not vary with data volume.
 >    BUT, networking is provisioned to handle peak capacity at all times, so can argue that energy usage is a function of both data volume and time.
-> + Study only looked at "transmission networks" ![[/image-66.png]]
+> + Study only looked at "transmission networks" ![[image-66.png]]
 > + Estimates from 14 studies vary between 0.004 kWh/GB and 160 kWh/GB !!! But system boundaries vary hugely and this is across many years where we know equipment efficiency has improved significantly.
 > + Four different methods used:  modelling, annual electricity consumption (AEC), direct measurements, and extrapolation.
 > 	+ Modelling: allows predictions and testing impact of changes of specific variables, sensitive to input assumptions and boundary choices. Must make sure to include full range of equipment (not just state of the art, but also less efficiency legacy equipment)
@@ -46,6 +46,6 @@ Anyway, the punchline is that there was likely a ~5x in **network electricity in
 > 	+ Combined approaches: can cross check estimate from above approaches. 
 > + Not only does efficiency steadily improve over time, sometimes there are step-changes with new types of technology and this is obviously very hard to integrate into predictions.
 > + Different studies assume different PUE values, as well as different number of network hops (which pulls in more or less equipment for analysis)
-> + Meta-analysis best estimates: ![[/image-67.png]]
+> + Meta-analysis best estimates: ![[image-67.png]]
 > 
 

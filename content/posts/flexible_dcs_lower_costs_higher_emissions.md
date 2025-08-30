@@ -34,18 +34,18 @@ Obviously we could optimise for emission reductions instead of cost, but that's 
 > + **In Texas where wind and solar are projected to supply 54% of generationm high levels of datacenter flexibility results in up to 40% lower CO2 emissions and accelerate retirements of coal and nuclear plants. This reverses in the Mid-Atlantic and WECC where renewable penetration is lower, coal units that survive retirements can run more uniformly, and system-wide emissions rise by as much as 3%, even though costs still fall.**
 > + Crowds out battery storage because load-shifting allows moving workloads to when renewables are producing, so don't need to time-shift capacity via batteries. 
 > + Results
-> 	+ Consistent patterns of shifting from early morning hours and early night hours to midday during the winter, eg: ![[/image-73.png]]
-> 	+ See the impact of DC flex vs non-flex on winter generation levels: ![[/image-74.png]]
+> 	+ Consistent patterns of shifting from early morning hours and early night hours to midday during the winter, eg: ![[image-73.png]]
+> 	+ See the impact of DC flex vs non-flex on winter generation levels: ![[image-74.png]]
 > 	+ Unsurprisingly we see lower gas peaker generation.
 > 	+ Base load becomes more uniform
 > 	+ Mid-day solar usage goes up, battery usage goes down, as "flexible load partially substitutes its role in balancing variability"
-> 	+ With a 24hr shifting horizon, can get down to almost zero coal and nuclear in Texas: ![[/image-75.png]]
+> 	+ With a 24hr shifting horizon, can get down to almost zero coal and nuclear in Texas: ![[image-75.png]]
 > + "First flexibility supports renewable investments. By shifting demand into hours with high  renewable availability, datacenter flexibility increases the economic value of wind and solar generation"
 > + BUT "Second, datacenter flexibility supports baseload operations. By flattening net load profiles, datacenter flexibility makes it more cost-effective to run inflexible baseload plants like coal with fewer ramping requirements...In contrast, in s**ystems with a large share of existing coal and relatively limited VRE (variable renewable energy) availability, flexibility tends to shift load toward cheap, carbon-intensive baseload generation, which raises emissions even as costs fall**".
 > + And so "Whether natural gas capacity and generation increase or decrease depends on which of these two effects dominates."
 > 	+ In the Mid-Atlantic and WECC, the support for baseload is stronger. This reduces the need for flexible natural gas capacity as coal generation becomes more economically viable
 > 	+ In Texas, the support for renewables dominates due to the high share of renewable generation of around 54% (39% wind, 15% solar) of total mix (compared to 22% and 33% in the Mid-Atlantic and WECC).
-> 	+ ![[/image-76.png]]
+> 	+ ![[image-76.png]]
 > + While all levels of flexibility reduce costs, the source of savings vary
 > 	+ Reduction of investments in new natural gas
 > 	+ Reduced fuel costs

@@ -42,9 +42,9 @@ And lastly, DERs are a compromise between the the high cost of a centralised pow
 > 	+ [air pollution kills ∼5 to 10 million people per year](https://www.bmj.com/content/bmj/383/bmj-2023-077784.full.pdf) (that's 10-15% of global deaths! And that's just air pollution!)
 > 	+ [cause ∼75% of climate pollution](https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors)
 > + [humanity spends/earns ∼$6.5 trillion per year on energy](https://www.enerdata.net/publications/executive-briefing/world-energy-expenditures.html)
-> [![[/hdi_energy_usage_per_capita.png]]](https://visualizingenergy.org/does-more-energy-use-increase-the-level-of-human-development/)
-> + Fossil fuel consumption typically loses 2/3 of output energy - "rejected energy" [![[/us_energy_consumption_sankey.png]]](https://flowcharts.llnl.gov/commodities/energy)
-> + [![[/us_energy_use_by_sector.png]]](https://www.eia.gov/energyexplained/electricity/use-of-electricity.php)
+> [![[hdi_energy_usage_per_capita.png]]](https://visualizingenergy.org/does-more-energy-use-increase-the-level-of-human-development/)
+> + Fossil fuel consumption typically loses 2/3 of output energy - "rejected energy" [![[us_energy_consumption_sankey.png]]](https://flowcharts.llnl.gov/commodities/energy)
+> + [![[us_energy_use_by_sector.png]]](https://www.eia.gov/energyexplained/electricity/use-of-electricity.php)
 > + $P_l=I^2 R$: $P_l$ is power loss, $I$ is current, and $R$ is resistance.
 >   This gives $P_l \propto I/V^2$
 > + AC transformers are simpler and were much more practical in the early days of electrification.
@@ -57,9 +57,9 @@ And lastly, DERs are a compromise between the the high cost of a centralised pow
 > 	+ Advances in power electronics make HVDC practical:
 > + Some interesting US power history that I'm not writing down.
 > + Marginal resource sets the price:
->   [![[/economic_dispatch_merit_order_pricing.png]]](https://kevinjkircher.com/wp-content/uploads/2025/01/der-energy-electricity.pdf)
+>   [![[economic_dispatch_merit_order_pricing.png]]](https://kevinjkircher.com/wp-content/uploads/2025/01/der-energy-electricity.pdf)
 > + But can be transmission constrained so need to pull from a local more expensive resource even if there is a remote less expensive resource that has capacity to cover all of your demand. This is very bad for overall cost because local expensive resource sets the price:
->   [![[/transmission_constraints_load_pockets.png]]](https://kevinjkircher.com/wp-content/uploads/2025/01/der-energy-electricity.pdf)
+>   [![[transmission_constraints_load_pockets.png]]](https://kevinjkircher.com/wp-content/uploads/2025/01/der-energy-electricity.pdf)
 > ]This is a reason that expensive power producers may push back on more transmission being built. BUT ALSO the cheap producer benefits from the high price so wants to limit transmission.
 > + Cost of centralised power resources vs distributed:
 > 	+ More hops between generation and consumption means more points for power loss and more points for failure (ie: blackouts).

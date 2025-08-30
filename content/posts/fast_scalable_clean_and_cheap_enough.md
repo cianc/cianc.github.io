@@ -22,7 +22,7 @@ Highlights:
 4. It's considerably cheaper than Microsoft's plans to buy power from a restarted Three Mile Island.
 5. Unsurprisingly things get exponentially more expensive as you reach higher levels of renewables.
 6. West Texas is where most suitable land is thanks the dense gas network which makes on-site gas generators feasible. If we drop the gas requirement (to either replace it with diesel or go 100% solar) then there is much more suitable land. But it does need A LOT of land: 90% renewables -> 2525 acres, 82%->2022, 44% -> 1008
-7. Lowering uptime requirements would have big cost implications (cf: [[rethinking_load_growth]]). For nearly the same cost as the gas-only case, solar+storage only could serve load 90% of the time (excluding unplanned downtime): ![[/image-48.png]]
+7. Lowering uptime requirements would have big cost implications (cf: [[rethinking_load_growth]]). For nearly the same cost as the gas-only case, solar+storage only could serve load 90% of the time (excluding unplanned downtime): ![[image-48.png]]
 
 The author's conclude with some speculation as to why we're not seeing more of these kinds of hybrid off-grid systems given the cost numbers and public GHG reduction commitments from the hyperscalers. Best guess seems to be change aversion and the rapidity at which renewables are dropping in price.
 
@@ -39,7 +39,7 @@ The author's conclude with some speculation as to why we're not seeing more of t
 > + Estimated time to operation for a large off-grid solar microgrid ~2 years (1-2 years for site acquisition and permitting plus 1-2 years for site buildout).
 > 	+ This compares v. well to 5+ years for new grid interconnections and 3+ years for off-grid colocated gas turbines.
 > 	+ Rental generators as used XAI prior to getting a grid connection are potentially the fastest ‘absolute’ path to power but their limited availability would be quickly exhausted by large-scale adoption and have a high costs at >$300/Mwh. They have discovered training loads require a battery buffer to maintain power quality
-> 	+ ![[/image-46.png]]
+> 	+ ![[image-46.png]]
 > + A microgrid supplying  44% of lifetime demand from solar and includes 125% natural gas backup is approximately the same cost as using large off-grid natural gas turbines: $93/MWh versus $86/MWh.
 > + A system supplying 90% of lifetime demand from solar is cheaper than repowering Three Mile Island ($109/MWh versus $130/MWh)
 > 	+ If we incorporate some non-standard but low risk optimisations we can likely drop these prices to \$87/MWh and \$97MWh.
@@ -49,11 +49,11 @@ The author's conclude with some speculation as to why we're not seeing more of t
 > + DCs for training have more geographical and availability flexibility than those for inference which need to be close to users and more reliable.
 > + Cost is important, but speed of deployment is currently the most important thing.
 > + The model incorporates eligible solar and battery costs receiving the 30% investment tax credit. Future of this after the BBBO is unclear.
-> + My god it's all debt servicing: ![[/image-47.png]]
-> + Once again, lowering uptime requirements could have big cost implications. See [[rethinking_load_growth]]. For nearly the same cost as the gas turbine case, solar+storage could serve load 90% of the time (excluding unplanned downtime): ![[/image-48.png]]
-> + What if we removed market distortions? No tax credits, equivalent cost to build as China, "abundance" scenario: ![[/image-49.png]]
+> + My god it's all debt servicing: ![[image-47.png]]
+> + Once again, lowering uptime requirements could have big cost implications. See [[rethinking_load_growth]]. For nearly the same cost as the gas turbine case, solar+storage could serve load 90% of the time (excluding unplanned downtime): ![[image-48.png]]
+> + What if we removed market distortions? No tax credits, equivalent cost to build as China, "abundance" scenario: ![[image-49.png]]
 > + Needs A LOT of land: 90% renewables -> 2525 acres, 82%->2022, 44% -> 1008
-> + Emissions impact: ![[/image-50.png]]
+> + Emissions impact: ![[image-50.png]]
 > + So why isn't it happening?
 > 	+ Cost premium for high renewable %'s, but the 44% option is basically at parity with gas.
 > 	+ Massive datacenters dedicated to training only are a recent phenomenon, and datacenter designers have historically been skeptical of off-grid solutions due to the perceived need to optimize for uptime reliability. 

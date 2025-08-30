@@ -39,7 +39,7 @@ Why won't leakage be 100%?
 4. Market structure, eg: OPEC caps, regulations.
 5. Delay of market signals propagating.
 
-The authors ran a Monte Carlo simulation over a distribution of leakages and fields weighted by production size to produce distributions of emission reductions/increases. They did this globally and grouped by region and oil type ![[/image-29.png]]
+The authors ran a Monte Carlo simulation over a distribution of leakages and fields weighted by production size to produce distributions of emission reductions/increases. They did this globally and grouped by region and oil type ![[image-29.png]]
 
 The above shows the outsized impact of curtailing the most emitting fields. 
 
@@ -81,9 +81,9 @@ ton of emissions reduced" - the methods in this paper seem like a reasonable app
 > + This paper is too long for the points it is making (too many words in particular)
 > + Nifty, mapping oil and gas field emissions: https://ociplus.rmi.org/map
 > + Have to very roughly estimate field size since only size buckets are provided by this data set
-> + ![[/image-26.png]]
+> + ![[image-26.png]]
 >   vs
->   ![[/image-27.png]]
+>   ![[image-27.png]]
 >   More variation in the 20-year GWP since that's more sensitive to methane leak
 > + Monte Carlo
 > 	+ Inputs: distributions of supply and demand elasticities sampled to create leakage distribution.
@@ -92,4 +92,4 @@ ton of emissions reduced" - the methods in this paper seem like a reasonable app
 > 	+ Also pick run simulations for 9 distinct categories of curtailed supply and 17 of substitute to reflect things like different emission levels, regionality, elasticity and oil type.
 > + "OPEC is about twice as price-responsive than average. Similarly, onshore North American
 > supply is estimated to be more price-responsive than the global average" 
-> + Results: ![[/image-28.png]] ![[/image-29.png]]
+> + Results: ![[image-28.png]] ![[image-29.png]]

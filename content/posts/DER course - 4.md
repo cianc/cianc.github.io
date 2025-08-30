@@ -28,7 +28,7 @@ This lecture builds on the scalar and vector linear ODEs in [[DER course - 3]] t
 	+ The equivalent discrete-time LDS is:<br> $\textcolor{red}{x(k+1) = A(k)x(k)+B(k)u(k)+w(k)}$<br> where $.(k)$ denotes $.(t_k)$<br> $\textcolor{red}{A(k) = e^{(t_{k+1}-t_k)\tilde{A}(t_k)}}$
 	+ If the dynamics matrix $\tilde{A}(t_k)$ is invertible<br> $\textcolor{red}{B(k) = (A(k) - I) \tilde{A}(t_k)^{-1} \tilde{B}(t_k)}$<br> $\textcolor{red}{w(k) = (A(k) - I) \tilde{A}(t_k)^{-1} \tilde{w}(t_k)}$
 
-Then the fun part: a simple climate model ![[/image-17.png]]
+Then the fun part: a simple climate model ![[image-17.png]]
 Then we do some neat power-balance calculations and end up with
 1. Steady state global average surface temperature: $\textcolor{red}{T = \sqrt[4]{\frac{(1 − \alpha)S}{4σ(1 − ε/2)}}}$
 2. Rate of change: $\textcolor{red}{\frac{dT(t)}{dt} = \frac{πR^2}{C}[ (1 − \alpha(t))S − 4σ(1 − ε(t)/2)T(t)^4]}$

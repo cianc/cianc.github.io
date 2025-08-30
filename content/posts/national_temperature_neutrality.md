@@ -17,7 +17,7 @@ This is a little outside my usual reading material, but there has been some loca
 
 The Climate Change Advisory Council (CCAC) is mandated to recommend carbon budgets aligned with Ireland’s National Climate Objective, and has adopted a national "temperature neutrality" (TN) framing for its recommendations whereby Ireland would aim at "global temperature stabilisation" instead of net-zero. Climate academics are not happy and point out in this paper that this a) goes against the EU interpretation as being net-zero (NZ) by 2050, b) does not satisfy the temperature limits in the Paris Agreement that require significant CH4 reductions, c) unfairly privileges countries that are already big CH4 emitters, and d) doesn't do anything for global food security which is a common excuse trotted out by the Irish agriculture sector when they are challenged on emissions.
 
-I had not thought much about the food safety issue before but this diagram is provocative ![[/image-100.png]]
+I had not thought much about the food safety issue before but this diagram is provocative ![[image-100.png]]
 There is very little exporting of animal-sourced food products from higher to lower income countries, and 75% of global indirect land use change for animal feed is for higher income countries. This suggests that animal agriculture in wealthier countries constrains land availability and raises food prices in the poorer countries.
 
 Another common argument from Irish agriculture that isn't addressed in this paper goes something like "GHG emission intensities for beef/dairy are lower for Ireland than most other countries and so if we don't produce and export, some other higher emitting country will". I used to find this argument a bit compelling, but then I learned about "market leakage" in [[Estimating_the_emissions_reductions_from_supply_side_fossil_fuel_interventions]] - specifically that "market leakage" is the term given to the phenomenon whereby reduced supply from one source is partially offset by increased production from other sources, and that it's almost never 100%. Instead, reduced supply almost always results in some reduction in demand.
@@ -45,21 +45,21 @@ Assuming the CCAC don't argue with the modelling in this paper (and I haven't he
 > 	+ Compares TN (temperature neutral), two split-gas (SG), NZ (net-zero), BAU (business as usual) scenarios.
 > 	+ Using MAGICC, a process based reduced-complexity climate model calibrated against higher complexity atmosphere-ocean and carbon cycle models
 > + Results
-> 	+ ![[/image-97.png]]
+> 	+ ![[image-97.png]]
 > 		+  Temperature neutrality status: this is relative to the previous year, true if emissions are stable or decreasing, otherwise false. 
 > 		+ SG1 and TN show a reversal in warming trends from the ∼2040s onward
 > 		+ TN-IE and SG2-IE fall in and out of TN, especially post-2070
-> 	+ ![[/image-98.png]]
+> 	+ ![[image-98.png]]
 > 		+ Disaggregated contribution to global temperature change
 > 		+ TN-IE and SG2-IE both show an increased contribution from CH4 over time.
 > 		+ "as global background CH4 concentration falls under SSP126, the relative warming effect of each tonne of remaining CH4 emission increases"
 > 		+ "even constant CH4 emissions result in small but cumulative warming over time, meaning that constant emissions do not equate to TN."
 > 	+ Implications for equitable food system transition
-> 		+ ![[/image-99.png]]
+> 		+ ![[image-99.png]]
 > 		+ High-income markets concentrate demand for ASFP, with production and trade flowing toward wealthier consumers with greater purchasing power. This reinforces a supply system that depends on imported feed and land-use expansion beyond local territorial limits, often through iLUC (indirect land use change). Meanwhile, low-income markets face persistent barriers to accessing   nutrient-dense foods due to limited purchasing power.
 > 		+ ~47% of the global population resided in low- and lower middle-income countries, while ∼35% resided in upper-middle-income countries and ∼17% in high income countries.
 > 		+ under-nutrition ~9%–10% globally, > 80% of undernourished people were in low and lower-middle-income countries, with less than 5% residing in high-income countries
-> 		+ ![[/image-100.png]]
+> 		+ ![[image-100.png]]
 > 			+ Very little ASFP produced in higher income countries goes to lower income countries. Mostly trade amongst themselves.
 > 			+ "high- and uppermiddle-income countries together account for ∼75% of iLUC, highlighting their reliance on land-use expansion beyond national borders to sustain their production levels." - what does this mean? That wealthy countries rely on land use in other countries to support growing crops for human and animal consumption.
 > 	+ Discussion

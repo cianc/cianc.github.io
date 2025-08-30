@@ -68,7 +68,7 @@ Both of these will have the effect of reducing the total FLOPs performed by a ch
 > 		+ Downside of using FLOPS is that we anchor to current state of algorithms, ie: algo improvements would not show up as CCI improvements.
 > 		+ measured operational CCI varies from 2 to 4 times higher than spec sheet operational CCI across the five TPUs.
 > 	+ Results
-> 		+ ![[/image-103.png|700x235]]
+> 		+ ![[image-103.png|700x235]]
 > 		+ Some speculation about a world where 90% of operational and manufacturing energy was 90% carbon free. I'm not sure I see the point of this in this paper. Feels like the author wants to write a separate paper about carbon accounting under future higher CFE conditions.
 > 		+ **Ignoring CFE procurement, embodied emissions are roughly ∼10% and operational emissions are ∼90% of an AI system’s lifetime emissions**. DC operation ~5%. So operational efficiency or more CFE for running systems is where we should be focusing for now.
 > 		+ Newer TPUs and more memory increase embodied emissions in newer generations — representing more than half of all embodied emissions with memory alone more than a third—yet CCI from manufacturing still declines each generation, suggesting performance gains via more efficient hardware design outweigh increases in manufacturing emissions.

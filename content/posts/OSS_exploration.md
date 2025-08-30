@@ -33,7 +33,7 @@ They also do an excellent job on helping people to contribute via https://github
 
 Unfortunately there don't see to be any recent open issues for the parser (where most of the Python code lives) that are bugs or feature requests. They all seem to be operational (such and such a parser is down because the data source is down or misconfigured). %%
 ### codecarbon 
-![[/image-94.png]]
+![[image-94.png]]
 > What is the carbon emission impact of my computer program?
 > We created a Python package that estimates your hardware electricity power consumption (GPU + CPU + RAM) and we apply to it the carbon intensity of the region where the computing is done.
 
@@ -49,7 +49,7 @@ On the negative side, the code profiling/optimisation aspect of this goes agains
 
 ~2 active contributors.
 ### emhass
-![[/image-95.png]]
+![[image-95.png]]
 > Energy Management for Home Assistant, is a Python module designed to optimize your home energy interfacing with Home Assistant.
 
 https://github.com/davidusb-geek/emhass-add-on is a separate repo for the home assistant add-on for easier HA integration.
@@ -73,7 +73,7 @@ No "good first issues", but plenty of other bugs in the queue. Discussions not v
 
 ~ 1-2 active contributors
 ### kube-green
-![[/image-96.png]]
+![[image-96.png]]
 > kube-green is a simple k8s addon that automatically shuts down (some of) your resources when you don't need them.
 
 As mentioned above in [[#codecarbon]] I think operational or framework fixes are the easiest ways to get the biggest wins so I like this approach. I'd need to learn about k8s, but I've been [meaning to do that](https://github.com/kelseyhightower/kubernetes-the-hard-way) for a while (all my container experience is with [Borg](https://research.google/pubs/large-scale-cluster-management-at-google-with-borg/).

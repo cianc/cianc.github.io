@@ -19,7 +19,7 @@ It was also heartening to see that Ireland is currently ahead of several of the 
 
 Anyway, the result from all of this is that simulations show significant cost smoothing and savings with data centre load flexibility (though the final assumption of 30% load being flexible is too optimistic IMO). As we recently saw in [Flexible Data Centers and the Grid: Lower Costs, Higher Emissions](flexible_dcs_lower_costs_higher_emissions.md), that doesn't automatically mean lower GHG emissions, but given Irelands relatively high and increasing degree of renewables penetration for electricity generation, it seems very likely that there would be emission reductions.
 
-![[/image-79.png]]
+![[image-79.png]]
 
 
 ### Questions
@@ -37,7 +37,7 @@ Anyway, the result from all of this is that simulations show significant cost sm
 > 	+ Heatpumps
 > 	+ EVs - assumes 936,000 by 2030, currently we have ~130k per https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/ireland
 > + Assumed capacity
-> 	+ ![[/image-77.png]]
+> 	+ ![[image-77.png]]
 > 		+ Solar is already at [1.76GW](https://www.pv-magazine.com/2025/06/25/ireland-solar-capacity-increases-by-160-in-two-years-solar-ireland-2025-report/#:~:text=Ireland's%20solar%20capacity%20hits%201.76,Europe%20within%20a%20few%20years.)
 > 		+ Onshore wind is [4.8GW](https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/ireland-signs-european-wind-charter-and-makes-pledge-to-deliver-on-wind-energy-targets/#:~:text=Ireland's%20onshore%20wind,of%20onshore%20wind%20by%202030) with a 9GW target by 2030.
 > 		+ Offshore wind is [25MW](https://en.wikipedia.org/wiki/Wind_power_in_Ireland#:~:text=The%20Arklow%20Bank%20Wind%20Park,harbor%20upgrade%20for%20offshore%20wind%22.), with a 5GW target by 2030
@@ -50,9 +50,9 @@ Anyway, the result from all of this is that simulations show significant cost sm
 > 	+ 750 MW of price-sensitive demand response - apparently this is already [700MW](https://thedrai.ie/#:~:text=About%20Us-,About%20Us,by%20flexible%20sources%20of%20demand.)?
 > + Results
 > 	+ Base case: it is assumed that data centre load is flat and doesn't vary significantly across the day. 
-> 		+ ![[/image-78.png]]
+> 		+ ![[image-78.png]]
 > 		+ Note price spikes corresponding with OCGT (peaker gas plants), and price drops on high wind days when supply exceeds demand and we export the excess.
 > 	+ Including data centre load management: assuming active participation of cloud providers as large energy users,with the share of flexible DC demand varied from 10-30%.
-> 		+ ![[/image-79.png]]
-> 		+ If we just take the 30% flexible load case and apply it to the first two base case graphs we can see the smoothing of electricity prices, especially on the low wind days : ![[/image-80.png]]
+> 		+ ![[image-79.png]]
+> 		+ If we just take the 30% flexible load case and apply it to the first two base case graphs we can see the smoothing of electricity prices, especially on the low wind days : ![[image-80.png]]
 

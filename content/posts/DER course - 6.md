@@ -15,23 +15,23 @@ Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [
 ## Summary
 It turns out that you can reason about building heating/cooling with something called "thermal circuits" that are analogous to electrical circuits. This allows us to reuse things like Ohm's law and Kirchoff's laws to reason about heat flow, thermal capacity and insulation (or thermal resistance) in single and connected rooms.
 
-Example:  ![[/image-33.png]]
+Example:  ![[image-33.png]]
 
 
 > [!NOTE]- Notes
 > + buildings = commercial + residential ~ 2/3 of electricity usage in the US
 > + peaks are typically driven by building aircon on hot days
 > 	+ seems like a good argument for distributed generation
-> + ![[/image-31.png]]
+> + ![[image-31.png]]
 > 	+ y-axis is % of energy used in residential/commercial buildings
 > 	+ blue includes electricity
-> + Simple building energy model ![[/image-32.png]]
+> + Simple building energy model ![[image-32.png]]
 > + Thermal circuits are analogous to electrical circuits
 > 	+ temperature ↔ voltage - temperature differences drive heat flows
 > 	+ heat ↔ charge
 > 	+ thermal resistance ↔ electrical resistance
 > 	+ thermal capacitance ↔ electrical capacitance
-> + 1R1C circuit: ![[/image-33.png]]
+> + 1R1C circuit: ![[image-33.png]]
 > 	+ $T(t)$ is  indoor temp
 > 	+ $\theta (t)$ is boundary (often outdoor) temp
 > 	+ $R ( ^{\circ}C/kW)$ is thermal resistance between $T$ and $\theta$
@@ -49,10 +49,10 @@ Example:  ![[/image-33.png]]
 > 		+ $\textcolor{red}{T(k+1) = aT(k) + (1-a)R(q_c(k) + w(k))}$
 > 			+ $\textcolor{red}{a=e^{-\Delta t/RC}}$
 > 			+ $\textcolor{red}{w(k)=q_e(k)+\theta(k)/R}$
-> + 2R1C ![[/image-34.png]]
+> + 2R1C ![[image-34.png]]
 > 	+ $T_m(t)$ is average temperature of thermal mass temperature (walls, etc)
 > 	+ $\textcolor{red}{C\frac{dT(t)}{dt} = \frac{T_m(t) - T(t)}{R_m} + \frac{T_{out} - T(t)}{R_{out}} + q_c(t) +q_e(t)}$
-> + nr1C ![[/image-35.png]]
+> + nr1C ![[image-35.png]]
 > 	+ physically, parallel resistances represent adjoining rooms (including above and below), and serial resistances the different materials in a barrier between rooms.
 > 	+ KCL $\Rightarrow \textcolor{red}{C\frac{dT(t)}{dT} = \sum_{i=1}^{n}\frac{T_i(t) - T(t)}{R_i} +q_c(t) +q_e(t)}$
 > 	+ Parameters
@@ -65,7 +65,7 @@ Example:  ![[/image-33.png]]
 > 			+ Step 6: estimate heater efficiency $\eta$
 > 			+ Step 7: set $\textcolor{red}{R \approx (\frac{24h}{1 day})\frac{HDD(\theta_h)}{\eta E}}$
 > 		+ **Thermal resistance from first principles**
-> 			+ ![[/image-40.png]]
+> 			+ ![[image-40.png]]
 > 			+ $R=1/(U_rA_r + U_wA_w\dot{m}c_p)$
 > 				+ $U$ is thermal transmittance
 > 				+ $A$ is outward-facing surface area
