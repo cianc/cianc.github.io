@@ -58,7 +58,7 @@ Is the water potable or non-potable. The more potable water consumed, the less t
 There are examples of non-potable water cooling like using sea water cooling for Google's Finland DCs, or recycling grey water. But any filtering or treatment required to use this water adds to the carbon footprint of the DC.
 
 
-After all this, we are left with two metrics for water intensity:
+After all this, we are left with two metrics for water usage effectiveness:
 
 $$\text{WUE} = \frac{\text{Annual site water usage}}{\text{ICT equipment energy}}$$
 
