@@ -27,10 +27,6 @@ As the authors note:
 > The adjusted water impact of deploying LLMs is highly location-sensitive. Same workloads can have orders-of magnitude differences in adjusted water impact depending on where they are served.
 > Even in the same location, seasonal changes can significantly affect adjusted water impact
 
-When looking at long-term water stress for datacentre operation, the authors model the impact of varying the discount rate for Google datacentres and point out that:
-> The choice of discount rate significantly alters datacenter sustainability rankings. A site that is sustainable in the long term (e.g., NV over VA3) may appear less favorable when short-term impacts are prioritized.
-
-This makes me worry more about companies playing with the discount rate to get the AWI they want, rather than the reverse.
 > [!NOTE]- Notes
 > + SCARF (**S**tress-**C**orrected **A**ssessment of Water **R**esource **F**ootprint): framework to evaluate water impact of computing by factoring in both spatial and temporal variations in water stress (the ratio of local water demand to supply). Calculates an Adjusted Water Impact (AWI) metric that considers both consumption volume and local water stress over time.
 > + "Recent studies show that serving 10 to 50 medium length queries from a large language model (LLM) such as GPT-3 can consume 500 mL of water" - but [[measuring_the_environmental_impact_of_delivering_ai_google_scale]] estimates 0.26 mL per query, or 100-500x lower.
