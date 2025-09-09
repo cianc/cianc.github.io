@@ -16,7 +16,7 @@ https://dl.acm.org/doi/10.1145/3757892.3757904
 
 This paper makes the reasonable case that water [[data_centre_water_consumption#1. Result of usage|consumption]] in different locations and at different times will have a very different impact (or Adjusted Water Impact (AWI)) on local [water stress](https://www.wri.org/insights/highest-water-stressed-countries#:~:text=Water%20stress%2C%20the%20ratio%20of,withdrawing%2040%25%20of%20its%20supply.) levels. Water usage metrics for eg: datacentres can look small compared to the an entire country, but we must remember that that water consumption is not spread evenly but is located in a small number of communities.
 
-The paper considers scope-1 water consumption (water consumed directly on-site for eg: cooling) and scope-2 (off-site water consumption for electricity generation). The temporal aspect is more than just looking at seasonality of water stress, but also projecting out into the future using Business-As-Usual (BAU) scenarios and a [discount rate](https://grist.org/article/discount-rates-a-boring-thing-you-should-know-about-with-otters/) to adjust for the the time value of water resources.
+The paper considers scope-1 water consumption (water consumed directly on-site for eg: cooling) and scope-2 (off-site water consumption for electricity generation). The temporal modelling looks at seasonality of water stress, but also projects out into the future using Business-As-Usual (BAU) scenarios and a [discount rate](https://grist.org/article/discount-rates-a-boring-thing-you-should-know-about-with-otters/) to adjust for the the time value of resources.
 
 The authors look at three water consumption cases: LLM inference serving, overall datacentre operation, and semiconductor fabs. All three show significant AWI variation based on geography, but the LLM case is probably the most fleshed out and also includes seasonality results
 
@@ -27,9 +27,10 @@ As the authors note:
 > The adjusted water impact of deploying LLMs is highly location-sensitive. Same workloads can have orders-of magnitude differences in adjusted water impact depending on where they are served.
 > Even in the same location, seasonal changes can significantly affect adjusted water impact
 
-Lastly, the authors model the impact of varying the discount rate for AWI of Google datacentres and point out that:
+When looking at long-term water stress for datacentre operation, the authors model the impact of varying the discount rate for Google datacentres and point out that:
 > The choice of discount rate significantly alters datacenter sustainability rankings. A site that is sustainable in the long term (e.g., NV over VA3) may appear less favorable when short-term impacts are prioritized.
 
+This makes me worry more about companies playing with the discount rate to get the AWI they want, rather than the reverse.
 > [!NOTE]- Notes
 > + SCARF (**S**tress-**C**orrected **A**ssessment of Water **R**esource **F**ootprint): framework to evaluate water impact of computing by factoring in both spatial and temporal variations in water stress (the ratio of local water demand to supply). Calculates an Adjusted Water Impact (AWI) metric that considers both consumption volume and local water stress over time.
 > + "Recent studies show that serving 10 to 50 medium length queries from a large language model (LLM) such as GPT-3 can consume 500 mL of water" - but [[measuring_the_environmental_impact_of_delivering_ai_google_scale]] estimates 0.26 mL per query, or 100-500x lower.
