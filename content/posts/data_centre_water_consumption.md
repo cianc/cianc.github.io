@@ -50,7 +50,7 @@ There are few different cooling methods that consume water:
 1.  Cooling towers where external air travels across a wet media so the water evaporates. Fans expel the hot, wet air and the cooled water is recirculated into chillers in the DC.
 2. Adiabatic cooling where water is sprayed directly into the air flow, or onto a heat exchange surface and cools the air entering the DC.
 
-In cooler regions it's also possible to do free air cooling where cold air is drawn inf from the external environment. Though I imagine you still need to plan and provision for times when the external temperature is too high for cooling.
+In cooler regions it's also possible to do free air cooling where cold air is drawn from the external environment. Though I imagine you still need to plan and provision for times when the external temperature is too high for cooling.
 
 #### 3. Type of water used
 Is the water potable or non-potable. The more potable water consumed, the less there is for the local population and agriculture.
