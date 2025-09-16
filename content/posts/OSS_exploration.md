@@ -41,9 +41,9 @@ This can track emissions at server level, or the Python application function lev
 
 Note that this is different from the Green Software Foundation's [carbon-aware-sdk](https://github.com/Green-Software-Foundation/carbon-aware-sdk) which as far as I can tell from the [demo](https://www.youtube.com/watch?v=-CmyrpisHXM)is a wrapper around carbon intensity providers like electricitymap.com or watttime.org. It provides a simple API to query carbon intensities and find the least intense regions by time and location. This project does not seem very active.
 
-I've [written a bit](tags/software) about the energy and carbon efficiency of software before, and have written software for carbon efficiency instrumentation, so this ticks the "something I'  already interested in box".
+I've [written a bit](tags/software) about the energy and carbon efficiency of software before, and have written software for carbon efficiency instrumentation, so this ticks the "something I'm already interested in box".
 
-The documentation is quiet nice, including these bits for onboarding: https://github.com/mlco2/codecarbon?tab=readme-ov-file#contributing and https://github.com/mlco2/codecarbon/blob/master/CONTRIBUTING.md. There are plenty of "good first issues" in the queue and commit frequency seems decent, though discussions seem quiet and I don't see any other channels of communication advertised.
+The documentation is quite nice, including these bits for onboarding: https://github.com/mlco2/codecarbon?tab=readme-ov-file#contributing and https://github.com/mlco2/codecarbon/blob/master/CONTRIBUTING.md. There are plenty of "good first issues" in the queue and commit frequency seems decent, though discussions seem quiet and I don't see any other channels of communication advertised.
 
 On the negative side, the code profiling/optimisation aspect of this goes against the idea discussed in [[building_green_software]] (that I mostly agree with) that the biggest and easiest emissions savings come from operational and framework changes, not code optimisations for individual applications. 
 
