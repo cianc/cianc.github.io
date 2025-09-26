@@ -7,6 +7,7 @@ tags:
   - energy
   - software
   - benchmarks
+  - OSS
 ---
 https://arxiv.org/pdf/2505.06371
 
