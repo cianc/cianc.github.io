@@ -1,7 +1,7 @@
 ---
 title: "Paper: The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization"
 draft: false
-created:
+created: 2025-09-19
 tags:
   - AI
   - energy
