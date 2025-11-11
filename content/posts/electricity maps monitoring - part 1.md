@@ -1,13 +1,13 @@
 ---
 title: Electricity Maps - Sustainable IT Monitoring & Grid Signals, 1-5
 draft: true
-created: 2025-11-03
+created: 2025-11-11
 tags:
   - monitoring
   - grids
   - education
 ---
-These are the first four parts in a course on power and emissions monitoring for IT equipment from the folks behind https://app.electricitymaps.com/
+These are the first five parts in a course on power and emissions monitoring for IT equipment from the folks behind https://app.electricitymaps.com/
 
 https://www.electricitymaps.com/content/lesson-1-introduction-sustainable-it-monitoring-grid-signals
 https://www.electricitymaps.com/content/lesson-2-introduction-sustainable-it-monitoring-grid-signals
@@ -16,6 +16,7 @@ https://www.electricitymaps.com/content/lesson-4-deep-dive-on-measuring-it-emiss
 https://www.electricitymaps.com/content/lesson-5-deep-dive-on-flexibility
 
 Each one was pretty light and there was a lot of repetition. 
+Simplistic treatments of temporal and geographic DC load flexibility.
 
 
 
@@ -33,5 +34,5 @@ Each one was pretty light and there was a lot of repetition.
 >   ![[image-136.png]]
 > + Mentions Green Software Foundation's https://sci.greensoftware.foundation/
 > + Talks about some of the tools for measure carbon emissions for compute job (didn't mention codecarbon!)
-> + 
+> + Electricity Maps API has a carbon-aware optimiser that provides the optimal time and location for a given workload.
 
