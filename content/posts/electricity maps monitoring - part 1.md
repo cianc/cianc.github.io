@@ -1,23 +1,22 @@
 ---
-title: Electricity Maps - Sustainable IT Monitoring & Grid Signals, 1-5
-draft: true
+title: Electricity Maps - Sustainable IT Monitoring & Grid Signals
+draft: false
 created: 2025-11-11
 tags:
   - monitoring
   - grids
   - education
 ---
-These are the first five parts in a course on power and emissions monitoring for IT equipment from the folks behind https://app.electricitymaps.com/
+This is a six part course on power and emissions monitoring for IT equipment from the folks behind https://app.electricitymaps.com/
 
 https://www.electricitymaps.com/content/lesson-1-introduction-sustainable-it-monitoring-grid-signals
 https://www.electricitymaps.com/content/lesson-2-introduction-sustainable-it-monitoring-grid-signals
 https://www.electricitymaps.com/content/lesson-3-sustainable-it-monitoring-journey
 https://www.electricitymaps.com/content/lesson-4-deep-dive-on-measuring-it-emissions
 https://www.electricitymaps.com/content/lesson-5-deep-dive-on-flexibility
+https://www.electricitymaps.com/content/lesson-6-summary-and-key-takeaways
 
-Each one was pretty light and there was a lot of repetition. 
-Simplistic treatments of temporal and geographic DC load flexibility.
-
+It's very high level stuff, with not much content in each lesson and a lot of repetition. Unless you're very new to the space, there's little here beyond a set of best practices and advice. Little to no technical content unfortunately. 
 
 
 > [!NOTE]- Notes
