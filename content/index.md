@@ -8,5 +8,5 @@ tags:
 
 %% Mitigating and adapting to the worst impacts of climate change depends on coordinating people and resources, ie: politics. But I'm an an engineer, and my politics are boringly socialist, so I'm going to stay in my lane and mostly write about how technology can help.  %%
 
-Notes exploring low-carbon computing, green software development, computational sustainability, distributed energy resources (DERs), grid optimisation, and resilient system design.
+[[posts/|Notes]] exploring low-carbon computing, green software development, computational sustainability, distributed energy resources (DERs), grid optimisation, and resilient system design.
 
