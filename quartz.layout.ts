@@ -8,7 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/cianc/cianc.github.io",
+      GitHub: "https://github.com/cianc",
       Linkedin: "https://www.linkedin.com/in/cian-cullinan/",
       Mail: "mailto:cian.cullinan@gmail.com",
     },
@@ -39,12 +39,12 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.DesktopOnly(
+//    Component.DesktopOnly(
 	Component.RecentNotes({
 		showTags: false,
 		limit: 4,
 		linkToMore: "posts/" as SimpleSlug,
-    		})),    
+    		}),//),    
   ],
   right: [
     //Component.Graph(),
