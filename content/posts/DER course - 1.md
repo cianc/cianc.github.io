@@ -1,0 +1,30 @@
+
+---
+title: "Distributed Energy Resources - Lecture 1: Intro"
+draft: false
+created: 2025-06-09
+tags:
+  - DERs
+  - education
+  - climate disasters
+  - GHG
+  - DERs
+---
+<div style="float: left; width: 300px; margin-right: 10px;">
+<img src="vpp_poster_doe_lo.png" alt="DOE loan office VPP poster">
+<p><a href="https://www.energy.gov/lpo/posters">Image credit: DOE loan office</a></p>
+</div>
+
+
+Like a lot of people I've been DER-pilled by [Volts](https://www.volts.wtf/). [This episode](https://www.volts.wtf/p/managing-a-distributed-grid) in particular makes a lot of comparisons between distributed computer systems (where I work) and distributed power systems.
+
+
+I'd like to know more and will be working through [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class that he has very generously put online. I'll be taking notes and putting summaries up as I go.
+
+---
+Other notes in this series from  [Kevin Kircher's](https://kevinjkircher.com/) [Distributed Energy Resources](https://kevinjkircher.com/distributed-energy-resources/) class  are [here](tags/DERs).
+## Summary
+Just the intro so and not a lot of detail yet, but a few interesting bits on the recent increase in severe storm damage in the US and the large disparity in the drop in GHG emissions between electricity production and the rest of the economy: agriculture and buildings are flat/up, industry and transport down modestly, and electricity generation is the hero
+
+
+
